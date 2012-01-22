@@ -9,14 +9,14 @@ var:
   tags_path : /tags.html
   rss_path: /atom.xml
 
-production_url : http://username.github.com # or your custom domain name
-title : Jekyll Bootstrap
+production_url : http://bookwyrm.github.com # or your custom domain name
+title : Exploring Code
 
 author :
-  name : Name Lastname
-  email : blah@email.test
-  github : username
-  twitter : username
-  feedbuder : feedname
+  name : Matt Vanderpol
+  email : matt@vanderpol.net
+  github : bookwyrm
+  twitter : bookwyrm
+  # feedbuder : feedname
 
 exclude: .rbenv-version
