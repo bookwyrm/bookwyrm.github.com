@@ -574,8 +574,8 @@ pre {
   margin-bottom: 1.625em;
 }
 pre {
-  color: #f2f2f2;
-  background-color: #393939;
+  color: #000;
+  background: #393939;
   border: 1px solid #393939;
   font-family: consolas, monaco, monospace;
   margin-left: 0;
