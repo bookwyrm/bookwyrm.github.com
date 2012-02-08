@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How I use HTML5 Boilerplate"
+date: February 8, 2012
 comments: true
 category: HTML
 tags: [html, performance]
