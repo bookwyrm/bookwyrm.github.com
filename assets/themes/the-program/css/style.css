@@ -1519,3 +1519,6 @@ section.myCard {
       text-align: right;
       width: 5ex;
   }
+
+.gistWrapper { margin-bottom: 1.625em; }
+  .gistWrapper pre { margin-bottom: 0; }
