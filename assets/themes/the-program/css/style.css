@@ -1091,7 +1091,7 @@ pre {
     font-size: 30px;
     line-height: 52px;
     margin-top: 0;
-    margin-bottom: 26px;
+    margin-bottom: 10px;
   }
 }
 pre .c {
@@ -1482,3 +1482,21 @@ hr {
   *display: inline;
   float: right;
 }
+
+section.myCard {
+	background: #fff;
+	border: 1px solid #aaa;
+	color: #333;
+	font-family: "Trebuchet MS", "MS Trebuchet", Arial, sans-serif;
+	margin-bottom: 20px;
+	padding: 20px 0;
+	text-align: center;
+	width: 300px;
+	-webkit-background-clip: padding-box; /* fix WebKit background bleed on border-radius */
+	-webkit-border-radius: 2px;
+	   -moz-border-radius: 2px;
+	        border-radius: 2px;
+}
+	section.myCard a:link { color: #333; }
+		section.myCard a.fn { color: #333; font-size: 1.4em; font-weight: bold; }
+	section.myCard span.title { display: block; }

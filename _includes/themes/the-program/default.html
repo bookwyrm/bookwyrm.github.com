@@ -23,7 +23,7 @@
     <!--[if lt IE 9]>
         <script src="/javascript/libs/html5shiv.min.js"></script>
     <![endif]-->
-	<link href='{{ ASSET_PATH }}/css/style.css' rel="stylesheet" media="all">
+	<link href="{{ ASSET_PATH }}/css/style.css" rel="stylesheet" media="all">
     {% if site.author.feedburner %}
         <link href="http://feeds.feedburner.com/{{ site.author.feedburner }}" rel="alternate" title="{{ page.title }}" type="application/atom+xml">
     {% endif %}
@@ -43,12 +43,12 @@
                             <li class="logo"><a href="/">{{ site.title }}</a></li>
                             <li class="blog"><a href="/blog/">{{ site.blog_title }}</a></li>
                         {% endif %}
-						<li class="archive"><a href="/archive.html">archive</a></li>
+                        {% if page.blog %}
+    						<li class="archive"><a href="/archive.html">archive</a></li>
+    						<li class="category"><a href="/categories.html">categories</a></li>
+    						<li class="tag"><a href="/tags.html">tags</a></li>
+                        {% endif %}
 						<li class="page"><a href="/pages.html">pages</a></li>
-						<li class="category"><a href="/categories.html">categories</a></li>
-						<li class="tag"><a href="/tags.html">tags</a></li>
-						<li class="forkme"><div><iframe src="http://markdotto.github.com/github-buttons/github-btn.html?user=plusjade&repo=jekyll-bootstrap&type=fork&count=true"
-									allowtransparency="true" frameborder="0" scrolling="0" width="95px" height="20px"></iframe></div></li>
 					</ul>
 				</nav>
 			</div><!-- unit-inner -->
@@ -68,11 +68,16 @@
 			<div class="unit-inner unit-foot-inner">
 				<div class="misc vcard">
 					<h4>about</h4>
+            		<section class="myCard">
+                        <a href="http://vanderpol.net" class="url fn">Matt Vanderpol</a>
+                        <span class="title">Web Developer</span>
+                        <a class="email" href="mailto:matt@vanderpol.net">matt@vanderpol.net</a>
+            			<div class="tel"><a href="tel:530-451-6887">530-451-6887</a></div>
+                    </section>
 					<ul>
-						<li class="contact"><address><span class="author fn n">{{ site.author.name }}</span> - <span class="fn email">{{ site.author.email }}</span></address></li>
 						<li class="github"><a href="http://github.com/{{ site.author.github }}/" rel="me">github.com/{{ site.author.github }}</a></li>
 						<li class="twitter"><a href="http://twitter.com/{{ site.author.twitter }}/" rel="me">twitter.com/{{ site.author.twitter }}</a></li>
-						<li class="rss"><a href="http://feeds.feedburner.com/{{ site.author.feedname }}">Subscribe to RSS Feed</a></li>
+                        <!-- <li class="rss"><a href="http://feeds.feedburner.com/{{ site.author.feedname }}">Subscribe to RSS Feed</a></li> -->
 					</ul>
 				</div><!-- misc -->
 				<p class="licence">

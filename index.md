@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Hi There!
+title: About Me
 ---
 {% include JB/setup %}
 
-I'm Matt Vanderpol, a 30-something American, husband, programmer, father, backpacker, and web-nerd. Read more below.
+I'm Matt Vanderpol, a 30-something husband, programmer, father, backpacker, and web developer. I live in beautiful [Nevada City](http://www.nevadacitychamber.com/) in a house that my wife and I designed and built.
 
 <!-- http://mark.reid.name/ -->
 
