@@ -1500,3 +1500,22 @@ section.myCard {
 	section.myCard a:link { color: #333; }
 		section.myCard a.fn { color: #333; font-size: 1.4em; font-weight: bold; }
 	section.myCard span.title { display: block; }
+	
+  .gist-highlight {
+      border-left: 3ex solid #eee;
+      position: relative;
+  }
+
+  .gist-highlight pre {
+      counter-reset: linenumbers;
+  }
+
+  .gist-highlight pre div:before {
+      color: #aaa;
+      content: counter(linenumbers);
+      counter-increment: linenumbers;
+      left: -5.5ex;
+      position: absolute;
+      text-align: right;
+      width: 5ex;
+  }
