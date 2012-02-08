@@ -21,7 +21,8 @@ markdown: rdiscount
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
 production_url : http://bookwyrm.github.com # or your custom domain name
-title : Checking Entropy
+title : Matt Vanderpol
+blog_title: Checking Entropy
 
 author :
   name : Matt Vanderpol
