@@ -6,9 +6,6 @@ title: About Me
 
 I'm Matt Vanderpol, a 30-something husband, programmer, father, backpacker, and web developer. I live in beautiful [Nevada City](http://www.nevadacitychamber.com/) in a house that my wife and I designed and built.
 
-<!-- http://mark.reid.name/ -->
-
-### Online
     
 ## Recent Posts
 
