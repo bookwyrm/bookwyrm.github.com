@@ -1,0 +1,18 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+
+/* TEAM */
+  Sovereign: Matt Vanderpol
+  Site: vanderpol.net
+  Twitter: bookwyrm
+  Location: Nevada City, CA
+
+/* THANKS */
+  Yuya Saito: https://github.com/studiomohawk
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: html5shiv, jQuery, Jekyll
+  Software: TextMate, git
+
