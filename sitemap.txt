@@ -4,6 +4,7 @@ http://bookwyrm.github.com/checking-entropy/archive.html
 http://bookwyrm.github.com/checking-entropy/categories.html
 http://bookwyrm.github.com/checking-entropy/index.html
 http://bookwyrm.github.com/checking-entropy/tags.html
+http://bookwyrm.github.com/contracting.html
 http://bookwyrm.github.com/index.html
 http://bookwyrm.github.com/pages.html
 http://bookwyrm.github.com/sitemap.txt
