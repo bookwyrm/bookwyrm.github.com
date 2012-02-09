@@ -2,16 +2,19 @@
 
 This is the source of the vanderpol.net website
 
-## Deploy
+## Create
 
 - git checkout source
+- jekyll --server
 - [make edits]
+- QA
 - git status / add / commit
 - jekyll --no-auto
-- QA
 - git push origin source
+
+## Deploy
+
 - git checkout master
-- merge?
 - execute
 
     cp -r _site/* . && rm -rf _site/ && touch .nojekyll
