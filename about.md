@@ -1,7 +1,6 @@
 ---
 layout: page
 title : About
-group: navigation
 ---
 ## About Me
 I'm a mid-30's father, technologist and budding enterpreneur.
