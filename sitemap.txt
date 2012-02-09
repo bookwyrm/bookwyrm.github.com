@@ -1,8 +1,11 @@
----
-# Remember to set production_url in your _config.yml file!
-title : Sitemap
----
-{% for page in site.pages %}
-{{site.production_url}}{{ page.url }}{% endfor %}
-{% for post in site.posts %}
-{{site.production_url}}{{ post.url }}{% endfor %}
+
+http://bookwyrm.github.com/atom.xml
+http://bookwyrm.github.com/checking-entropy/archive.html
+http://bookwyrm.github.com/checking-entropy/categories.html
+http://bookwyrm.github.com/checking-entropy/index.html
+http://bookwyrm.github.com/checking-entropy/tags.html
+http://bookwyrm.github.com/index.html
+http://bookwyrm.github.com/pages.html
+http://bookwyrm.github.com/sitemap.txt
+
+http://bookwyrm.github.com/checking-entropy/2012/02/08/how-i-use-html5-boilerplate
