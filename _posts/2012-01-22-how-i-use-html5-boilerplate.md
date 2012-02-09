@@ -4,7 +4,7 @@ title: "How I use HTML5 Boilerplate"
 date: February 8, 2012
 comments: true
 category: HTML
-tags: [html, performance]
+tags: [html, best practices]
 blog: true
 ---
 
@@ -39,6 +39,13 @@ Not much to see here. Marking up and styling a page is a totally different topic
 {% gist 1772836 HTML5B-3.html %}
 
 The way that the scripts are added in the final page is fairly standard so I'd like to talk about how I organize them behind the secenes. I never liked the libs/ vs mylibs/ organization structure; I was never sure what should go where.
+
+I resolved the issue by just using libs/ and plugins/
+
+<pre><code>libs/
+plugins/</code></pre>
+
+I keep jQuery and html5shiv (and [DD_belatedPNG](http://www.dillerdesign.com/experiment/DD_belatedPNG/) but I’m starting to drop support for IE6 so that will go away) in libs/ while all of my jQuery plugins go in 
 
 ### In Total
 
