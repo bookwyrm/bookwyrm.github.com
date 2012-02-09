@@ -28,6 +28,9 @@ Since most of the sites I’ve built to date are fairly static sites (as opposed
 
 I know that many people (including the HTML5B folks) advocate putting the Google Analytics code in the footer. It does work there, but it means that you can’t use GA anywhere else safely without using the <code>var \_gaq = \_gaq || [];</code> construct. If I have it in the head then I know that GA is available and I can just use it as expected. I do like the slimmed down version of the code from HTML5B so I’m starting to use it and, since the code is in the head, I don’t have to worry about the succint \_gaq setup killing any other \_gaq calls which might happen if GA is at the bottom of the page.
 
+Finally, I always put the <code>link</code> tag for CSS below any <code>script</code> tags because
+<q>“a stylesheet followed by an inline script blocks subsequent downloads”</q> (<cite>[Steve Souders](http://www.stevesouders.com/blog/2010/09/22/newtwitter-performance-analysis/)</cite>).
+
 ### The Body
 
 {% gist 1772821 HTML5B-3.html %}
@@ -45,7 +48,7 @@ I resolved the issue by just using libs/ and plugins/
 <pre><code>libs/
 plugins/</code></pre>
 
-I keep jQuery and html5shiv (and [DD_belatedPNG](http://www.dillerdesign.com/experiment/DD_belatedPNG/) but I’m starting to drop support for IE6 so that will go away) in libs/ while all of my jQuery plugins go in 
+I keep jQuery and html5shiv (and [DD_belatedPNG](http://www.dillerdesign.com/experiment/DD_belatedPNG/) but I’m starting to drop support for IE6 so that will go away) in libs/ while all of my jQuery plugins go in the plugins/ directory. I always keep both a development and a minified version of each lib and plugin around. This makes it easy to debug when I need to.
 
 ### In Total
 
