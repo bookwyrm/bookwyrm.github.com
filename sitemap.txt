@@ -1,4 +1,5 @@
 
+http://bookwyrm.github.com/404.html
 http://bookwyrm.github.com/atom.xml
 http://bookwyrm.github.com/checking-entropy/archive.html
 http://bookwyrm.github.com/checking-entropy/categories.html
