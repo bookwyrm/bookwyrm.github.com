@@ -4,9 +4,9 @@ title: About Me
 ---
 {% include JB/setup %}
 
-I'm Matt Vanderpol, a mid-30s husband, father, backpacker, web developer, technologist and budding enterpreneur. I live in beautiful [Nevada City](http://www.nevadacitychamber.com/) in a house that my wife and I designed and built.
+I’m Matt Vanderpol, a mid-30s husband, father, backpacker, web developer, technologist, and budding enterpreneur. I live in beautiful [Nevada City](http://www.nevadacitychamber.com/) in a house that my wife and I designed and built.
 
-I've been a web developer since 1997, am the founder of [qatab](http://qatab.com), and am available [for contracting](contracting.html).
+I’ve been a web developer since 1997, am the founder of [qatab](http://qatab.com), and am available [for contracting](contracting.html).
 
 I blog at [Checking Entropy](blog/) where I try to rein in a small part of the chaos of online knowledge in an effort to increase my own (knowledge, not chaos).
     
