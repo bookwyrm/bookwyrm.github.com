@@ -55,4 +55,4 @@ I dabbled in Ruby on Rails several years ago but the technology stack felt a lit
 
 ### Technology X
 
-I’ve been called a gifted learner and I’m quick at picking up new languages, frameworks, technologies. If you’ve got a project in a technology not mentioned here there’s a good chance that I’ve heard of it and dabbled some so I’d still love to chat with you about it and see if I can offer any insight or would be a good fit.
+I’ve been called a gifted learner and I’m quick at picking up new languages, frameworks, and technologies. If you’ve got a project in a technology not mentioned here there’s a good chance that I’ve heard of it and dabbled some so I’d still love to chat with you about it and see if I can offer any insight or would be a good fit.
