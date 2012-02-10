@@ -6,6 +6,7 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 auto: true
 pygments: true
 markdown: rdiscount
+
 # var:
 #   archive_path: /archive.html
 #   categories_path : /categories.html
@@ -86,9 +87,9 @@ JB :
   # Set 'provider' to false to turn analytics off globally.
   #        
   analytics :
-    provider : false
+    provider : google
     google : 
-        tracking_id : 'UA-123-12'
+        tracking_id : 'UA-26975212-1'
     getclicky :
       site_id : 
 
