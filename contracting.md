@@ -19,7 +19,7 @@ Some recent projects I’ve worked on.
 
 #### [vanderpol.net](http://vanderpol.net)
 
-This site was recently re-imagined and relaunched. I wanted a place where I could promote my skills and capabilities as well as share my knowledge and give my own education a better framework. The site is built on top of [Jekyll](http://jekyllrb.com/), managed with [git](http://git-scm.com/) and served through [github pages](http://pages.github.com/). Having a static site like this frees me from having to maintain, secure, and update a hosting platform like WordPress and it allows me more flexibility in how I build the site. I’m only limited by my Ruby, JS and CSS skills.
+This site was recently re-imagined and relaunched. I wanted a place where I could promote my skills and capabilities as well as share my knowledge and give my own education a better framework. The site is built on top of [Jekyll](http://jekyllrb.com/), managed with [git](http://git-scm.com/) and served through [github pages](http://pages.github.com/). Having a static site like this frees me from having to maintain, secure, and update a hosting platform like WordPress and it allows me more flexibility in how I build the site. I’m only limited by my Ruby, JS, and CSS skills.
 
 #### [Cedar House Sport Hotel Event Calendar](http://www.cedarhousesporthotel.com/eventcalendar/index.php)
 
@@ -55,4 +55,4 @@ I dabbled in Ruby on Rails several years ago but the technology stack felt a lit
 
 ### Technology X
 
-I’ve been called a gifted learner and I’m quick at picking up new languages and frameworks and technologies. If you’ve got a project in a technology not mentioned here there’s a good chance that I’ve heard of it and dabbled some so I’d still love to chat with you about it and see if I can offer any insight or would be a good fit.
+I’ve been called a gifted learner and I’m quick at picking up new languages, frameworks, technologies. If you’ve got a project in a technology not mentioned here there’s a good chance that I’ve heard of it and dabbled some so I’d still love to chat with you about it and see if I can offer any insight or would be a good fit.
