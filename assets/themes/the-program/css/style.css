@@ -675,7 +675,7 @@ pre {
 .unit-article ul,
 .unit-article ol,
 .unit-article dl {
-  padding-left: 0;
+  padding-left: 20px;
 }
 .unit-article ul {
   list-style: square;

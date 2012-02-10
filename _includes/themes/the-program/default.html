@@ -19,6 +19,9 @@
             <title>{{ site.title }}</title>
         {% endif %}
     {% endif %}
+	{% if page.meta_description %}
+		<meta name="description" content="{{ page.meta_description }}">
+	{% endif %}
 	<meta name="author" content="{{ site.author.name }}">
     <!--[if lt IE 9]>
         <script src="/js/libs/html5shiv-3.3.min.js"></script>
