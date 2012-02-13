@@ -32,7 +32,7 @@
         <link href="http://feeds.feedburner.com/{{ site.author.feedburner }}" rel="alternate" title="{{ page.title }}" type="application/atom+xml">
     {% endif %}
 </head>
-<body>
+{% if page.blog %}<body class="blog">{% else %}<body>{% endif %}
 
 <div id="page" class="hentry">
 	<header class="the-header">
