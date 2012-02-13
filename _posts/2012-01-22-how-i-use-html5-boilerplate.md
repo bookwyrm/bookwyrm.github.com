@@ -14,7 +14,7 @@ I’m a big fan of [HTML5 Boilerplate](http://html5boilerplate.com/) but there�
 
 {% gist 1770161 HTML5B-1.html %}
 
-I find that I don’t need a whole lot of CSS that is IE-specific to fix display. Therefore, I don't need the variety of classes on the <code>html</code> tag.
+I find that I don’t need a whole lot of CSS that is IE-specific to fix display issues. Therefore, I don't need the variety of classes on the <code>html</code> tag.
 
 I prefer being able to target each version of IE individually because it allows me to apply changes to more recent versions but not older versions.
 
