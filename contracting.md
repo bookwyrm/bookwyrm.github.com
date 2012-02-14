@@ -7,7 +7,7 @@ meta_description: Matt Vanderpol is an experienced web developer with knowledge 
 
 I’m available for contracting for both front-end and back-end development.
 
-I’ve been involved in web development since 1997. Since that time, I’ve worked with many Silicon Valley tech companies, both large and small.
+I’ve been involved in web development since 1997. In that time, I’ve worked with many Silicon Valley tech companies, both large and small.
 
 I can take a Photoshop comp and turn it into a standards-compliant website that looks great in browsers down to IE7 (and is readable in IE6) or I can take a set of requirements and define and implement a backend solution to satisfy them.
 
@@ -19,15 +19,15 @@ Some recent projects I’ve worked on.
 
 #### [vanderpol.net](http://vanderpol.net)
 
-This site was recently re-imagined and relaunched. I wanted a place where I could promote my skills and capabilities as well as share my knowledge and give my own education a better framework. The site is built on top of [Jekyll](http://jekyllrb.com/), managed with [git](http://git-scm.com/) and served through [github pages](http://pages.github.com/). Having a static site like this frees me from having to maintain, secure, and update a hosting platform like WordPress and it allows me more flexibility in how I build the site. I’m only limited by my Ruby, JS, and CSS skills.
+This site was recently re-imagined and relaunched. I wanted a place where I could promote my skills and capabilities as well as share my knowledge and give my own education a better framework. The site is built on top of [Jekyll](http://jekyllrb.com/), managed with [git](http://git-scm.com/) and served through [GitHub Pages](http://pages.github.com/). Having a static site like this frees me from having to maintain, secure, and update a hosting platform like WordPress and it allows me more flexibility in how I build the site. I’m only limited by my Ruby, JS, HTML, and CSS skills.
 
 #### [Cedar House Sport Hotel Event Calendar](http://www.cedarhousesporthotel.com/eventcalendar/index.php)
 
-I customized an existing open source event calendar to improve the security and “skinability” of the solution. I extended it to support a WYSIWYG interface for event descriptions and allow image uploads. I also improved the default search experience to make it more user friendly and accessible. The final solution was styled based on a provided comp and integrated with an existing website.
+I customized an existing open source event calendar to improve the security and “skinability” of the solution. I extended it to support a WYSIWYG interface for event descriptions and to allow image uploads. I also improved the default search experience to make it more user friendly and accessible. The final solution was styled based on a provided comp and integrated with an existing website.
 
 #### [qatab](http://qatab.com)
 
-In all the years I’ve been a web developer, the process of collecting feedback and issues during the <abbr title="Quality Assurance">QA</abbr> phase has been fraught with difficulty. That’s why I created qatab. With qatab it’s easy for users to submit feedback or notes on what’s wrong and the qatab solution automatically captures time, URL and browser info - saving you from having to ask them for the specifics after the fact.
+In all the years I’ve been a web developer, the process of collecting feedback and issues during the <abbr title="Quality Assurance">QA</abbr> phase has been fraught with difficulty. That’s why I created [qatab](http://qatab.com). With qatab it’s easy for users to submit feedback or notes on what’s wrong and the solution automatically captures time, URL and browser info - saving you from having to ask them for the specifics after the fact.
 
 # Skillset
 
@@ -47,7 +47,7 @@ Now we’re getting into behavior; JavaScript is what makes the page come alive.
 
 ### PHP
 
-Ah, PHP - perhaps the most ubiquitous server-side technology online today. I’ve created many sites and solutions using PHP. I’ve extended both [WordPress](http://wordpress.org/) and [Drupal](http://drupal.org/) and I’ve built my own framework for building and managing websites. If you’ve got a new or existing project in PHP I can help you.
+Ah, PHP - perhaps the most ubiquitous server-side technology online today. I’ve created many sites and solutions using PHP. I’ve extended both [WordPress](http://wordpress.org/) and [Drupal](http://drupal.org/) and I’ve created a framework for building and managing websites. If you’ve got a new or existing project in PHP I can help you.
 
 ### Ruby on Rails
 
