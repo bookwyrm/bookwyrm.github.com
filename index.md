@@ -8,7 +8,7 @@ I’m Matt Vanderpol, a mid-30s husband, father, backpacker, web developer, tech
 
 I’ve been a web developer since 1997, am the founder of [qatab](http://qatab.com), and am available [for contracting](contracting.html).
 
-I blog at [Checking Entropy](blog/) where I try to rein in a small part of the chaos of online knowledge in an effort to increase my own (knowledge, not chaos).
+I blog at [Checking Entropy](checking-entropy/) where I try to rein in a small part of the chaos of online knowledge in an effort to increase my own (knowledge, not chaos).
     
 ## Recent Posts
 
