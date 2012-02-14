@@ -4,7 +4,7 @@
  <title>Matt Vanderpol</title>
  <link href="http://bookwyrm.github.com/atom.xml" rel="self"/>
  <link href="http://bookwyrm.github.com"/>
- <updated>2012-02-09T17:04:25-08:00</updated>
+ <updated>2012-02-13T17:27:05-08:00</updated>
  <id>http://bookwyrm.github.com</id>
  <author>
    <name>Matt Vanderpol</name>
@@ -30,7 +30,7 @@
 &lt;/code&gt;&lt;/pre&gt;&lt;/noscript&gt;&lt;/div&gt;
 
 
-&lt;p&gt;I find that I don’t need a whole lot of CSS that is IE-specific to fix display. Therefore, I don't need the variety of classes on the &lt;code&gt;html&lt;/code&gt; tag.&lt;/p&gt;
+&lt;p&gt;I find that I don’t need a whole lot of CSS that is IE-specific to fix display issues. Therefore, I don't need the variety of classes on the &lt;code&gt;html&lt;/code&gt; tag.&lt;/p&gt;
 
 &lt;p&gt;I prefer being able to target each version of IE individually because it allows me to apply changes to more recent versions but not older versions.&lt;/p&gt;
 

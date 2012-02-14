@@ -548,11 +548,12 @@ html {
   color: #2d2d2d;
 }
 #page {
-  background: url('/assets/themes/the-program/skin/100-90-5-monochrome.png');
-  background-repeat: repeat;
-  background-position: 0 0;
-  background-color: #e2e2de;
+  background: #e2e2de url('/assets/themes/the-program/skin/100-90-5-monochrome.png') repeat 0 0;
 }
+	body.blog #page {
+		background-image: url('/assets/themes/the-program/skin/vintage_speckles.png');
+		background: #C5C7B6;
+	}
 .body .unit-body {
   background-color: #fafafa;
 }
@@ -1055,7 +1056,7 @@ pre {
   .the-header .unit-head .nav-global .logo a {
     display: block;
     font-size: 30px;
-    line-height: 52px;
+    line-height: 45px;
     margin-bottom: 26px;
     padding-left: 5px;
     position: relative;
