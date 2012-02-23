@@ -10,4 +10,5 @@ http://bookwyrm.github.com/index.html
 http://bookwyrm.github.com/pages.html
 http://bookwyrm.github.com/sitemap.txt
 
+http://bookwyrm.github.com/checking-entropy/2012/02/23/managing-css
 http://bookwyrm.github.com/checking-entropy/2012/02/08/how-i-use-html5-boilerplate

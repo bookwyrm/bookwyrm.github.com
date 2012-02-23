@@ -4,13 +4,84 @@
  <title>Matt Vanderpol</title>
  <link href="http://bookwyrm.github.com/atom.xml" rel="self"/>
  <link href="http://bookwyrm.github.com"/>
- <updated>2012-02-14T10:39:21-08:00</updated>
+ <updated>2012-02-23T11:18:24-08:00</updated>
  <id>http://bookwyrm.github.com</id>
  <author>
    <name>Matt Vanderpol</name>
    <email>matt@vanderpol.net</email>
  </author>
 
+ 
+ <entry>
+   <title>Managing CSS - An Introduction</title>
+   <link href="http://bookwyrm.github.com/checking-entropy/2012/02/23/managing-css"/>
+   <updated>2012-02-23T00:00:00-08:00</updated>
+   <id>hhttp://bookwyrm.github.com/checking-entropy/2012/02/23/managing-css</id>
+   <content type="html">&lt;p&gt;I’ve been working with CSS for almost 10 years. In that time it has always bugged me that CSS frequently devolves into a mess of conflicting styles and long stylesheets. I’ve been thinking about how to make the situation better and doing some research on what other people have done, and this is the first in a series of blog posts where I will explore ways and means of managing CSS files.&lt;/p&gt;
+
+&lt;h2&gt;Goals&lt;/h2&gt;
+
+&lt;p&gt;Any time you set off on an “expotition” you need to have goals in mind. Goals help you evaluate your pathways and give your destination a shape.&lt;/p&gt;
+
+&lt;h3&gt;Organization and Maintainability&lt;/h3&gt;
+
+&lt;p&gt;There should be some order to the styles. Some sense of what goes where. It’s painful to have the same selector appear in 3 different files so that you have to figure out which one is the best place to edit.&lt;/p&gt;
+
+&lt;p&gt;In addition to keeping the styles organized, it’s important that they’re readable. When writing traditional “code”, a coding style guide helps ensure that everyone is writing code in an agreed on format. Bringing this concept to CSS can help keep your styles and attributes organized.&lt;/p&gt;
+
+&lt;h3&gt;Performance&lt;/h3&gt;
+
+&lt;p&gt;CSS files can easily balloon to 10’s of KB - granted not that big on the grand scale of things but it’s important to do what you can to minimize file sizes (and the number of CSS files) in order to keep web sites performing well.&lt;/p&gt;
+
+&lt;h3&gt;Documentation&lt;/h3&gt;
+
+&lt;p&gt;In order for styles to be used effectively, they need to be documented. This let’s new people work with them and provides a framework for review and discussion. We’ll even explore the QA benefits that can be found in documentation.&lt;/p&gt;
+
+&lt;h2&gt;Vocabulary&lt;/h2&gt;
+
+&lt;p&gt;It’s difficult to talk about something unless you have a shared vocabulary. We need to agree on certain concepts and what they mean. I’m going to lay out a simple vocabulary here but I suspect that the Vocabulary will become an element of Documentation by the time we’re done.&lt;/p&gt;
+
+&lt;p&gt;You may disagree with some of these terms - that’s ok. The important thing is that you understand what I mean when I use them. Some of the terms are likely to be self-evident and industry-standard - that’s ok too. I’m explicitly documenting them so that there are no questions.&lt;/p&gt;
+
+&lt;h3&gt;Header&lt;/h3&gt;
+
+&lt;p&gt;The top of the page. Usually a shared block of HTML that appears on all pages of the site and includes logo, navigation and other common page elements.&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;Header&lt;/strong&gt; should not be confused with the &lt;code&gt;head&lt;/code&gt; tag.&lt;/p&gt;
+
+&lt;h3&gt;Footer&lt;/h3&gt;
+
+&lt;p&gt;The bottom of the page. Usually a shared block of HTML that appears on all pages of the site and includes additional links, copyright and other supporting page elements.&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;Footer&lt;/strong&gt; should not be confused with the &lt;code&gt;footer&lt;/code&gt; tag.&lt;/p&gt;
+
+&lt;h3&gt;Gutters&lt;/h3&gt;
+
+&lt;p&gt;If a page has a fixed width design then, the space between the left and right edges of the content and the left and right edges of the browser window.&lt;/p&gt;
+
+&lt;p&gt;I’m using the term &lt;strong&gt;Gutters&lt;/strong&gt; rather than margin so as to prevent confusion with the &lt;code&gt;margin&lt;/code&gt; style.&lt;/p&gt;
+
+&lt;h3&gt;Wrapper&lt;/h3&gt;
+
+&lt;p&gt;The wrapper bundles up several different parts of a site together. It includes the &lt;strong&gt;Header&lt;/strong&gt;, &lt;strong&gt;Footer&lt;/strong&gt; and &lt;strong&gt;Gutters&lt;/strong&gt;. The &lt;strong&gt;Wrapper&lt;/strong&gt; will be largely unchanged from page to page (apart from some possible navigation state indicators).&lt;/p&gt;
+
+&lt;h3&gt;Content&lt;/h3&gt;
+
+&lt;p&gt;The content is the meat of the page. It’s “why we’re here”. Content will be different from one page to another and even the design of the content area may be different from one page to another.&lt;/p&gt;
+
+&lt;h3&gt;Sidebar&lt;/h3&gt;
+
+&lt;p&gt;It can be on the left or on the right or both. The sidebar usually contains navigation and additional content in support of the &lt;strong&gt;Content&lt;/strong&gt;. Think of it like an &lt;code&gt;aside&lt;/code&gt; for the &lt;strong&gt;Content&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h3&gt;Mast&lt;/h3&gt;
+
+&lt;p&gt;This is usually a banner above the content. We’re not lumping it in with the &lt;strong&gt;Content&lt;/strong&gt; because there are frequently similarities in &lt;strong&gt;Mast&lt;/strong&gt; between pages and it often spans both the &lt;strong&gt;Content&lt;/strong&gt; and the &lt;strong&gt;Sidebar&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2&gt;What’s Next&lt;/h2&gt;
+
+&lt;p&gt;Now that we have some goals and a vocabulary, we can start a dialog. My next blog post will focus on organization and maintainability - how CSS file(s) can be structured and ways to think about CSS. We’ll look at what some other folks have said and try to work towards a common, stable foundation.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>How I use HTML5 Boilerplate</title>
