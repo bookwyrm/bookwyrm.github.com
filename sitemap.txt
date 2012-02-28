@@ -1,14 +1,14 @@
 
-http://bookwyrm.github.com/404.html
-http://bookwyrm.github.com/atom.xml
-http://bookwyrm.github.com/checking-entropy/archive.html
-http://bookwyrm.github.com/checking-entropy/categories.html
-http://bookwyrm.github.com/checking-entropy/index.html
-http://bookwyrm.github.com/checking-entropy/tags.html
-http://bookwyrm.github.com/contracting.html
-http://bookwyrm.github.com/index.html
-http://bookwyrm.github.com/pages.html
-http://bookwyrm.github.com/sitemap.txt
+http://vanderpol.net/404.html
+http://vanderpol.net/atom.xml
+http://vanderpol.net/checking-entropy/archive.html
+http://vanderpol.net/checking-entropy/categories.html
+http://vanderpol.net/checking-entropy/index.html
+http://vanderpol.net/checking-entropy/tags.html
+http://vanderpol.net/contracting.html
+http://vanderpol.net/index.html
+http://vanderpol.net/pages.html
+http://vanderpol.net/sitemap.txt
 
-http://bookwyrm.github.com/checking-entropy/2012/02/23/managing-css
-http://bookwyrm.github.com/checking-entropy/2012/02/08/how-i-use-html5-boilerplate
+http://vanderpol.net/checking-entropy/2012/02/23/managing-css
+http://vanderpol.net/checking-entropy/2012/02/08/how-i-use-html5-boilerplate
