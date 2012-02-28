@@ -30,7 +30,7 @@ author :
   email : matt@vanderpol.net
   github : bookwyrm
   twitter : bookwyrm
-  # feedburner : feedname
+  feedburner : checking-entropy
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
