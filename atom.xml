@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>Matt Vanderpol</title>
- <link href="http://bookwyrm.github.com/atom.xml" rel="self"/>
- <link href="http://bookwyrm.github.com"/>
- <updated>2012-02-28T06:35:42-08:00</updated>
- <id>http://bookwyrm.github.com</id>
+ <title>Checking Entropy</title>
+ <link href="http://vanderpol.net/atom.xml" rel="self"/>
+ <link href="http://vanderpol.net/checking-entropy/"/>
+ <updated>2012-02-28T06:43:04-08:00</updated>
+ <id>http://vanderpol.net/checking-entropy/</id>
  <author>
    <name>Matt Vanderpol</name>
    <email>matt@vanderpol.net</email>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Managing CSS - An Introduction</title>
-   <link href="http://bookwyrm.github.com/checking-entropy/2012/02/23/managing-css"/>
+   <link href="http://vanderpol.net/checking-entropy/2012/02/23/managing-css"/>
    <updated>2012-02-23T00:00:00-08:00</updated>
-   <id>hhttp://bookwyrm.github.com/checking-entropy/2012/02/23/managing-css</id>
+   <id>hhttp://vanderpol.net/checking-entropy/2012/02/23/managing-css</id>
    <content type="html">&lt;p&gt;I’ve been working with CSS for almost 10 years. In that time it has always bugged me that CSS frequently devolves into a mess of conflicting styles and long stylesheets. I’ve been thinking about how to make the situation better and doing some research on what other people have done, and this is the first in a series of blog posts where I will explore ways and means of managing CSS files.&lt;/p&gt;
 
 &lt;h2&gt;Goals&lt;/h2&gt;
@@ -85,9 +85,9 @@
  
  <entry>
    <title>How I use HTML5 Boilerplate</title>
-   <link href="http://bookwyrm.github.com/checking-entropy/2012/02/08/how-i-use-html5-boilerplate"/>
+   <link href="http://vanderpol.net/checking-entropy/2012/02/08/how-i-use-html5-boilerplate"/>
    <updated>2012-02-08T00:00:00-08:00</updated>
-   <id>hhttp://bookwyrm.github.com/checking-entropy/2012/02/08/how-i-use-html5-boilerplate</id>
+   <id>hhttp://vanderpol.net/checking-entropy/2012/02/08/how-i-use-html5-boilerplate</id>
    <content type="html">&lt;p&gt;I’m a big fan of &lt;a href=&quot;http://html5boilerplate.com/&quot;&gt;HTML5 Boilerplate&lt;/a&gt; but there’s a few things I do differently...&lt;/p&gt;
 
 &lt;h3&gt;The Beginning&lt;/h3&gt;
