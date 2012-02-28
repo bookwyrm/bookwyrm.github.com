@@ -21,7 +21,7 @@ markdown: rdiscount
 # Else if you are pushing to username.github.com, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://bookwyrm.github.com # or your custom domain name
+production_url : http://vanderpol.net # or your custom domain name
 title : Matt Vanderpol
 blog_title: Checking Entropy
 
