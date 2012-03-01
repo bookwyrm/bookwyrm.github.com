@@ -4,7 +4,7 @@
  <title>Checking Entropy</title>
  <link href="http://vanderpol.net/atom.xml" rel="self"/>
  <link href="http://vanderpol.net/checking-entropy/"/>
- <updated>2012-02-28T06:43:04-08:00</updated>
+ <updated>2012-03-01T06:51:56-08:00</updated>
  <id>http://vanderpol.net/checking-entropy/</id>
  <author>
    <name>Matt Vanderpol</name>
@@ -13,9 +13,24 @@
 
  
  <entry>
+   <title>HumanDigest</title>
+   <link href="http://vanderpol.net/checking-entropy/2012/03/01/human_digest"/>
+   <pubDate>2012-03-01T00:00:00-08:00</pubDate>
+   <id>hhttp://vanderpol.net/checking-entropy/2012/03/01/human_digest</id>
+   <content type="html">&lt;p&gt;I saw the &lt;a href=&quot;https://github.com/zacharyvoase/humanhash&quot;&gt;humanhash&lt;/a&gt; project a while back and it looked perfect for something I needed to do in &lt;a href=&quot;http://qatab.com&quot;&gt;qatab&lt;/a&gt;. The only problem was that humanhash was written in Python.&lt;/p&gt;
+
+&lt;p&gt;Over the last few days, I took the time to read through the Python code, and run the script locally in small bits to understand what it was doing and how it was doing it (an activity that was hampered by the fact that I didn’t understand Python).&lt;/p&gt;
+
+&lt;p&gt;Once I understood its behavior in Python, I re-created it in Ruby and turned it into a gem.&lt;/p&gt;
+
+&lt;p&gt;You can now use &lt;a href=&quot;https://github.com/bookwyrm/human_digest&quot;&gt;human_digest&lt;/a&gt; (&lt;a href=&quot;https://rubygems.org/gems/human_digest&quot;&gt;gem&lt;/a&gt;) in your projects too!&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Managing CSS - An Introduction</title>
    <link href="http://vanderpol.net/checking-entropy/2012/02/23/managing-css"/>
-   <updated>2012-02-23T00:00:00-08:00</updated>
+   <pubDate>2012-02-23T00:00:00-08:00</pubDate>
    <id>hhttp://vanderpol.net/checking-entropy/2012/02/23/managing-css</id>
    <content type="html">&lt;p&gt;I’ve been working with CSS for almost 10 years. In that time it has always bugged me that CSS frequently devolves into a mess of conflicting styles and long stylesheets. I’ve been thinking about how to make the situation better and doing some research on what other people have done, and this is the first in a series of blog posts where I will explore ways and means of managing CSS files.&lt;/p&gt;
 
@@ -86,7 +101,7 @@
  <entry>
    <title>How I use HTML5 Boilerplate</title>
    <link href="http://vanderpol.net/checking-entropy/2012/02/08/how-i-use-html5-boilerplate"/>
-   <updated>2012-02-08T00:00:00-08:00</updated>
+   <pubDate>2012-02-08T00:00:00-08:00</pubDate>
    <id>hhttp://vanderpol.net/checking-entropy/2012/02/08/how-i-use-html5-boilerplate</id>
    <content type="html">&lt;p&gt;I’m a big fan of &lt;a href=&quot;http://html5boilerplate.com/&quot;&gt;HTML5 Boilerplate&lt;/a&gt; but there’s a few things I do differently...&lt;/p&gt;
 
