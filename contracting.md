@@ -43,7 +43,7 @@ If HTML is the foundation, CSS is the paint and trim. Once I’ve built out the 
 
 ### JavaScript
 
-Now we’re getting into behavior; JavaScript is what makes the page come alive. My JavaScript library of choice is [jQuery](jquery.com) but I’ve worked with others including [Ender](http://ender.no.de/) and [Prototype](http://www.prototypejs.org/). I’ve implemented existing plugins for jQuery and created my own when necessary. I know all about how to improve page performance and can consult on that too.
+Now we’re getting into behavior; JavaScript is what makes the page come alive. My JavaScript library of choice is [jQuery](http://jquery.com) but I’ve worked with others including [Ender](http://ender.no.de/) and [Prototype](http://www.prototypejs.org/). I’ve implemented existing plugins for jQuery and created my own when necessary. I know all about how to improve page performance and can consult on that too.
 
 ### PHP
 
