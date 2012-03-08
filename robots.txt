@@ -2,4 +2,5 @@
 # http://code.google.com/web/controlcrawlindex/
 
 User-agent: *
-disallow:
+disallow: 404.html
+disallow: exclude-from-tracking.html
