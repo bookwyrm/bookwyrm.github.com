@@ -41,7 +41,7 @@ Not much to see here. Marking up and styling a page is a totally different topic
 
 {% gist 1772836 HTML5B-3.html %}
 
-The way that the scripts are added in the final page is fairly standard so I'd like to talk about how I organize them behind the secenes. I never liked the libs/ vs mylibs/ organization structure; I was never sure what should go where.
+The way that the scripts are added in the final page is fairly standard so I'd like to talk about how I organize them behind the scenes. I never liked the libs/ vs mylibs/ organization structure; I was never sure what should go where.
 
 I resolved the issue by just using libs/ and plugins/
 
