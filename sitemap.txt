@@ -1,14 +1,16 @@
 
-http://vanderpol.net/404.html
+
 http://vanderpol.net/atom.xml
 http://vanderpol.net/checking-entropy/archive.html
 http://vanderpol.net/checking-entropy/categories.html
 http://vanderpol.net/checking-entropy/index.html
 http://vanderpol.net/checking-entropy/tags.html
 http://vanderpol.net/contracting.html
+
 http://vanderpol.net/index.html
 http://vanderpol.net/pages.html
 http://vanderpol.net/sitemap.txt
+
 
 http://vanderpol.net/checking-entropy/2012/03/01/human_digest
 http://vanderpol.net/checking-entropy/2012/02/23/managing-css
