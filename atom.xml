@@ -4,7 +4,7 @@
  <title>Checking Entropy</title>
  <link href="http://vanderpol.net/atom.xml" rel="self"/>
  <link href="http://vanderpol.net/checking-entropy/"/>
- <updated>2012-03-08T06:57:55-08:00</updated>
+ <updated>2012-03-08T08:45:54-08:00</updated>
  <id>http://vanderpol.net/checking-entropy/</id>
  <author>
    <name>Matt Vanderpol</name>
@@ -747,7 +747,7 @@ I think you should use an
 &lt;/code&gt;&lt;/pre&gt;&lt;/noscript&gt;&lt;/div&gt;
 
 
-&lt;p&gt;The way that the scripts are added in the final page is fairly standard so I'd like to talk about how I organize them behind the secenes. I never liked the libs/ vs mylibs/ organization structure; I was never sure what should go where.&lt;/p&gt;
+&lt;p&gt;The way that the scripts are added in the final page is fairly standard so I'd like to talk about how I organize them behind the scenes. I never liked the libs/ vs mylibs/ organization structure; I was never sure what should go where.&lt;/p&gt;
 
 &lt;p&gt;I resolved the issue by just using libs/ and plugins/&lt;/p&gt;
 
