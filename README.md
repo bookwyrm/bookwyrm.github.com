@@ -4,7 +4,7 @@ This is the source of the vanderpol.net website
 
 ## Create
 
-- git checkout source
+- git co source
 - jekyll --server
 - [make edits]
 - QA
@@ -14,7 +14,7 @@ This is the source of the vanderpol.net website
 
 ## Deploy
 
-- git checkout master
+- git co master
 - execute
 
     cp -r _site/* . && rm -rf _site/ && touch .nojekyll
