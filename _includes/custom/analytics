@@ -1,0 +1,10 @@
+<script>
+	{% if page.isfnf %}
+	var _gaq=[['_setAccount','{{ site.JB.analytics.google.tracking_id }}'],['_trackPageview', "/404.html?page=" + document.location.pathname + document.location.search + "&from=" + document.referrer]];
+	{% else %}
+	var _gaq=[['_setAccount','{{ site.JB.analytics.google.tracking_id }}'],['_trackPageview']];
+	{% endif %}
+	(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+	g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+	s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
