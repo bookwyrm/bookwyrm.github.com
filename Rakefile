@@ -39,6 +39,12 @@ module JB
   end #Path
 end #JB
 
+# Usage: rake minify
+desc "Minify files"
+task :minify do
+  system "java -jar _build/yuicompressor.jar --verbose --type css -o assets/themes/the-program/css/style.min.css assets/themes/the-program/css/style.css"
+end # task :minify
+
 # Usage: rake post title="A Title"
 desc "Begin a new post in #{CONFIG['posts']}"
 task :post do
