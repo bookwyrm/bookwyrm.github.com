@@ -27,7 +27,7 @@
         <script src="/js/libs/html5shiv-3.3.min.js"></script>
     <![endif]-->
     {% include JB/analytics %}
-	<link href="{{ ASSET_PATH }}/css/style.css" rel="stylesheet" media="all">
+	<link href="{% minified_css_file %}" rel="stylesheet" media="all">
     {% if site.author.feedburner %}
         <link href="http://feeds.feedburner.com/{{ site.author.feedburner }}" rel="alternate" title="{{ page.title }}" type="application/atom+xml">
     {% endif %}
