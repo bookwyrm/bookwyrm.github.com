@@ -42,7 +42,7 @@ end #JB
 # Usage: rake minify
 desc "Minify files"
 task :minify do
-  system "java -jar _build/yuicompressor.jar --verbose --type css -o assets/themes/the-program/css/style.min.css assets/themes/the-program/css/style.css"
+  system "java -jar _build/yuicompressor.jar --verbose --type css -o assets/themes/vanderpol-net/css/style.min.css assets/themes/vanderpol-net/css/style.css"
   system "java -jar _build/htmlcompressor.jar -r --type html -o _site _site"
 end # task :minify
 
