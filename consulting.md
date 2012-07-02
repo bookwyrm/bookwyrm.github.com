@@ -1,11 +1,12 @@
 ---
 layout: page
-title: Web Contracting
+title: Web Consulting
 meta_description: Matt Vanderpol is an experienced web developer with knowledge of HTML, CSS, JavaScript, PHP, Ruby on Rails and more; he is available for hire on projects both large and small.
+alias: /contracting.html
 ---
 {% include JB/setup %}
 
-I’m available for contracting for both front-end and back-end development.
+I’m available for consulting for both front-end and back-end development.
 
 I’ve been involved in web development since 1997. In that time, I’ve worked with many Silicon Valley tech companies, both large and small.
 
