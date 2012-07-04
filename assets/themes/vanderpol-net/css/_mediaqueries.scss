@@ -2,7 +2,7 @@
 
 	.the-header {
 		.unit-head {
-			padding: @line-height * 1px;
+			padding: $line-height * 1px;
 			.nav-global {
 				.logo {
 					display: block;
@@ -22,7 +22,7 @@
 	.body {
 		.unit-body {
 			border-top: 1px solid rgba(255,255,255,0.6);
-			padding: @line-height * 1px;
+			padding: $line-height * 1px;
 		}
 	}
 
@@ -33,20 +33,20 @@
 		color: rgba(250, 250, 250, 0.8);
 		a {
 			&:link {
-				color: @accent-color;
+				color: $accent-color;
 				border: 0;
 			}
 			&:visited {
-				color: darken(@accent-color, 10%);
+				color: darken($accent-color, 10%);
 				border: 0;
 			}
 			&:hover {
-			color: lighten(@accent-color, 10%);
+			color: lighten($accent-color, 10%);
 			border: 0;
 			}
 		}
 		h4 { margin-top: 0; }
-		padding: (@line-height ) * 1px;
+		padding: ($line-height ) * 1px;
 	}  // .the-footer
 
 
@@ -88,7 +88,7 @@
 					a:link {}
 					a:hover {
 						background-color: #fff04a;
-						color: lighten(@main-font-color, 10%);
+						color: lighten($main-font-color, 10%);
 					}
 				}
 				li:nth-child(2) { border-width: 0 1px; }
@@ -126,7 +126,7 @@
 					a {
 						line-height: 18px;
 						margin-bottom: 0;
-						padding-left: (@line-height * 2) * 1px;
+						padding-left: ($line-height * 2) * 1px;
 					}
 				}
 			}
@@ -140,19 +140,19 @@
 		.unit-body {
 			border-top: 0 none;
 			margin-right: 450px;
-			padding: @line-height * 1px (@line-height * 2) * 1px;
+			padding: $line-height * 1px ($line-height * 2) * 1px;
 		}
 	}
 
 	.the-footer {
 		background-color: transparent;
-		color: @main-font-color;
+		color: $main-font-color;
 
 		position: relative;
 		top: auto;
 		display: block;
 		float: left;
-		padding: 0 0 0 @line-height * 1px;
+		padding: 0 0 0 $line-height * 1px;
 		width: 420px;
 	}  // .the-footer
 
@@ -168,7 +168,7 @@
 			float: left;
 			width: 19%;
 		.unit-head {
-			padding: @line-height * 1px;
+			padding: $line-height * 1px;
 			.nav-global {
 				li {
 					float: none;
@@ -212,7 +212,7 @@
 			-moz-box-shadow: rgba(255,255,255,1.0) 0px 0px 2px;
 			-o-box-shadow: rgba(255,255,255,1.0) 0px 0px 2px;
 			margin-right: 450px;
-			padding: @line-height * 1px (@line-height * 2) * 1px;
+			padding: $line-height * 1px ($line-height * 2) * 1px;
 			min-height: 1050px;
 		}
 	}
@@ -222,7 +222,7 @@
 		top: auto;
 		display: block;
 		float: left;
-		padding: @line-height * 1px 0 0 @line-height * 1px;
+		padding: $line-height * 1px 0 0 $line-height * 1px;
 		width: 420px;
 		h4 {
 			font-size: 30px;
