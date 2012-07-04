@@ -1,0 +1,71 @@
+/* VARIABLES
+--------------------------------------------------------------------------------- */
+$main-bg: #ffffff;
+$subtle-bg: #515151;
+$main-font-color: #2d2d2d;
+$accent-color: #c26164;
+
+
+$font-size: 16;			// Your base font-size in pixels
+$line-height: 26;		// Your base line-height in pixels
+$em: $font-size * 1em;	// Shorthand for outputting ems, e.g. "12/$em"
+
+$column: 60;	// The column-width of your grid in pixels
+$gutter: 30;	// The gutter-width of your grid in pixels
+
+/*
+Font families
+
+No styleguide reference.
+*/
+
+$font-stack: consolas, monaco, monospace;
+$webfont: UbuntuMono-B, consolas, monaco, monospace;
+
+
+/*
+Color schemes
+
+No styleguide reference.
+*/
+
+/* solarized - http://j.mp/s9Xuw9
+
+$base03:    #002b36;
+$base02:    #073642;
+$base01:    #586e75;
+$base00:    #657b83;
+$base0:     #839496;
+$base1:     #93a1a1;
+$base2:     #eee8d5;
+$base3:     #fdf6e3;
+$yellow:    #b58900;
+$orange:    #cb4b16;
+$red:       #dc322f;
+// @magenta:   #d33682;
+$violet:    #6c71c4;
+$blue:      #268bd2;
+$cyan:      #2aa198;
+$green:     #859900;
+
+*/
+
+// Tomorrow Night - http://j.mp/wvO4U4
+
+$base03:    #2d2d2d;
+$base02:    #393939;
+$base01:    #515151;
+$base0:     #cccccc;
+$subtle:    #999999;
+$yellow:    #ffcc66;
+$orange:    #f99157;
+$red:       #f2777a;
+$violet:    #cc99cc;
+$blue:      #6699cc;
+$cyan:      #66cccc;
+$green:     #99cc99;
+
+// Texture
+
+$noise-100-90-5: "/assets/themes/the-program/skin/100-90-5-monochrome.png"; // http://noisepng.com/
+$cross-hair: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAR0lEQVQYGYVOQQoAIAizHuJXpafqR4wFCw9Ggji2OSbubpkp3UI7Qmcidz9JIKniAYITEQasqovcJHhelquxFf9LVjfTeKFtWPOYLQ+xHqUAAAAASUVORK5CYII="; // http://ptrn.it/AmYV5d

@@ -1,0 +1,12 @@
+@mixin cf {
+  &:before,&:after{display: table;content: "";}
+  &:after{clear:both;}
+  &{zoom:1;}
+}
+
+@mixin ir {
+  & {overflow: hidden;text-indent: 100%;white-space: nowrap;}
+}
+
+//@mixin width ($cols:1) { width: ($cols * ($column + $gutter) - $gutter) / $em; }
+

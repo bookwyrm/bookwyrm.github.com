@@ -1,0 +1,14 @@
+/* 
+  ## clearfix
+  
+  To clear floated child elements.
+  
+  class: <code>clearfix</code>
+  
+    <div class="documentation-aid-bordered">
+      <div class="cf">
+        <div class="documentation-aid" style="float: right">Floated Element</div>
+      </div>
+    </div>
+*/
+.cf, .clearfix { @include cf; }
