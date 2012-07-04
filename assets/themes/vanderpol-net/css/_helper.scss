@@ -19,30 +19,10 @@ No styleguide reference.
 /* Firefox had different box-sizing for hr. See: http://jsfiddle.net/sFgt7/ */
 hr { -moz-box-sizing: content-box; }
 /* Contain floats: h5bp.com/q */
-.clearfix:before,
-.clearfix:after, 
 .cf:before,
-.cf:after,
-.hasGrid:before,
-.hasGrid:after,
-.unit-inner:before,
-.unit-inner:after,
-.tag_box:before,
-.tag_box:after,
-#page:before,
-#page:after { content: ""; display: table; }
-.clearfix:after,
-.cf:after,
-.hasGrid:after,
-.unit-inner:after,
-.tag_box:after,
-#page:after { clear: both; }
-.clearfix,
-.cf,
-.hasGrid,
-.unit-inner,
-.tag_box,
-#page { *zoom: 1; }
+.cf:after{ content: ""; display: table; }
+.cf:after{ clear: both; }
+.cf { *zoom: 1; }
 .left {
 	*display: inline;
 	float: left;

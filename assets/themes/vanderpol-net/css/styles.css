@@ -337,6 +337,11 @@ table {
 td {
   vertical-align: top; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_wrapper\.scss}line{font-family:\000031}}
+#page {
+  width: 980px;
+  margin: 0 auto; }
+
 /*
 Frameless			<http://framelessgrid.com/>
 by Joni Korpi 		<http://jonikorpi.com/>
@@ -470,37 +475,26 @@ No styleguide reference.
 --------------------------------------------------------------------------------- */
 /* GLOBAL
 --------------------------------------------------------------------------------- */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\0000317}}
 html {
   color: #2d2d2d; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\0000318}}
-#page {
-  background: url("@{noise-100-90-5}");
-  background-repeat: repeat;
-  background-position: 0 0;
-  background-color: #e2e2de; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\0000326}}
-.body .unit-body {
-  background-color: #fafafa; }
-
 /* LINK */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\0000336}}
 a:link {
   color: #2d2d2d;
   text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\0000340}}
 a:visited {
   color: #141414;
   text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\0000344}}
 a:hover {
   color: #474747;
   text-decoration: none; }
 
 /* HIGHLIGHTER */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\0000349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\0000352}}
 pre {
   color: #f2f2f2;
   background-color: #393939;
@@ -516,116 +510,116 @@ pre {
 /* meta */
 /* HEADER
 --------------------------------------------------------------------------------- */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\0000369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\0000372}}
 .the-header .logo {
   font-family: UbuntuMono-B, consolas, monaco, monospace;
   margin: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\0000372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\0000375}}
   .the-header .logo a:visited {
     color: #2d2d2d; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\0000374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\0000377}}
 .the-header .nav-global {
   text-transform: uppercase; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\0000376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\0000379}}
   .the-header .nav-global .logo {
     text-transform: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\0000377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\0000380}}
   .the-header .nav-global .forkme {
     position: relative;
     top: 2px; }
 
 /* MAIN
 --------------------------------------------------------------------------------- */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\0000388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\0000391}}
 .unit-article header {
   border-bottom: 5px solid rgba(21, 25, 25, 0.8);
   margin-bottom: 21px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\0000391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\0000394}}
   .unit-article header h1 {
     color: #2d2d2d;
     margin-top: 0;
     margin-bottom: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\0000399}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003102}}
 .unit-article .entry-content h2, .unit-article .entry-content h3, .unit-article .entry-content h4, .unit-article .entry-content h5, .unit-article .entry-content h6 {
   color: #2d2d2d; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003102}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003105}}
   .unit-article .entry-content h2 a:link, .unit-article .entry-content h3 a:link, .unit-article .entry-content h4 a:link, .unit-article .entry-content h5 a:link, .unit-article .entry-content h6 a:link {
     color: #2d2d2d;
     border: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003106}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003109}}
   .unit-article .entry-content h2 a:visited, .unit-article .entry-content h3 a:visited, .unit-article .entry-content h4 a:visited, .unit-article .entry-content h5 a:visited, .unit-article .entry-content h6 a:visited {
     color: #141414;
     border: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003110}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003113}}
   .unit-article .entry-content h2 a:hover, .unit-article .entry-content h3 a:hover, .unit-article .entry-content h4 a:hover, .unit-article .entry-content h5 a:hover, .unit-article .entry-content h6 a:hover {
     color: #474747;
     border: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003122}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003125}}
 .unit-article .entry-content:first-child h2,
 .unit-article .entry-content:first-child h3,
 .unit-article .entry-content:first-child h4,
 .unit-article .entry-content:first-child h5,
 .unit-article .entry-content:first-child h6 {
   margin-top: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003125}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003128}}
 .unit-article a:link {
   border-bottom: 1px dashed #c26164; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003126}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003129}}
 .unit-article a:visited {
   border-bottom: 1px dashed #ad4346; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003127}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003130}}
 .unit-article a:hover {
   border-bottom: 1px dashed #d08688; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003130}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003133}}
 .unit-article blockquote {
   border-left: 1em solid rgba(21, 25, 25, 0.8);
   padding-left: 1em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003133}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003136}}
   .unit-article blockquote p {
     margin-left: 0;
     margin-right: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003138}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003141}}
 .unit-article ul, .unit-article ol, .unit-article dl {
   padding-left: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003139}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003142}}
 .unit-article ul {
   list-style: square; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003140}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003143}}
 .unit-article ol {
   list-style: decimal; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003142}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003145}}
 .unit-article li h1, .unit-article li h2, .unit-article li h3, .unit-article li h4, .unit-article li h5, .unit-article li p, .unit-article li ul, .unit-article li ol, .unit-article li dl, .unit-article li blockquote, .unit-article li .hasGrid, .unit-article dt h1, .unit-article dt h2, .unit-article dt h3, .unit-article dt h4, .unit-article dt h5, .unit-article dt p, .unit-article dt ul, .unit-article dt ol, .unit-article dt dl, .unit-article dt blockquote, .unit-article dt .hasGrid, .unit-article dd h1, .unit-article dd h2, .unit-article dd h3, .unit-article dd h4, .unit-article dd h5, .unit-article dd p, .unit-article dd ul, .unit-article dd ol, .unit-article dd dl, .unit-article dd blockquote, .unit-article dd .hasGrid {
   margin-left: 0;
   margin-right: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003144}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003147}}
 .unit-article p code, .unit-article li code {
   padding: 2px 5px;
   white-space: nowrap;
   background-color: #fff04a; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003150}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003153}}
 .unit-article img {
   display: block;
   margin-left: auto;
   margin-left: auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003155}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003158}}
 .unit-article img.left {
   margin-right: 16px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003156}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003159}}
 .unit-article img.right {
   margin-left: 16px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003158}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003161}}
 .unit-article .date-publish {
   margin-bottom: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003159}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003162}}
 .unit-article .list-linear .list-head {
   margin-right: 4px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003160}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003163}}
 .unit-article .list-category a, .unit-article .list-tag a {
   border: 0 none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003162}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003165}}
   .unit-article .list-category a:hover span, .unit-article .list-tag a:hover span {
     background-color: #f99157; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003164}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003167}}
 .unit-article .list-category span, .unit-article .list-tag span {
   background-color: #e25608;
   padding: 1px 5px;
@@ -641,32 +635,32 @@ pre {
   top: -2px;
   font-weight: bold;
   font-size: 13px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003180}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003183}}
 .unit-article .list-category {
   margin-bottom: 0;
   text-transform: capitalize; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003185}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003188}}
 .unit-article .list-tag {
   text-transform: capitalize; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003189}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003192}}
 .unit-article .comment a {
   border-bottom: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003191}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003194}}
 .unit-article .unit-foot {
   border-top: 5px solid rgba(21, 25, 25, 0.8);
   position: relative; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003195}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003198}}
   .unit-article .unit-foot nav ul {
     list-style: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003197}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003200}}
     .unit-article .unit-foot nav ul li {
       display: inline; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003199}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003202}}
   .unit-article .unit-foot .gotop {
     margin-bottom: 0; }
 
 /* post & page */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003206}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003209}}
 .layout-page .tag_box {
   background: url("@{noise-100-90-5}") repeat 0 0 #999999;
   list-style: none;
@@ -679,12 +673,12 @@ pre {
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(255, 255, 255, 0.4);
   -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(255, 255, 255, 0.4);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.4), 0 1px 0 rgba(255, 255, 255, 0.4); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003217}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003220}}
   .layout-page .tag_box li {
     display: inline;
     line-height: normal;
     vertical-align: middle; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003222}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003225}}
   .layout-page .tag_box a {
     background-color: #99cc99;
     float: left;
@@ -709,22 +703,22 @@ pre {
     -ms-user-select: none;
     user-select: none;
     vertical-align: bottom; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003245}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003248}}
     .layout-page .tag_box a:active {
       -webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
       -moz-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
       box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
       background: #336633;
       border: solid #336633; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003252}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003255}}
     .layout-page .tag_box a:hover {
       background-color: #77bb77;
       border: 1px solid #336633; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003255}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003258}}
       .layout-page .tag_box a:hover span {
         background-color: #e1e1e1;
         border: 1px solid #77bb77; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003261}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003264}}
   .layout-page .tag_box span {
     background-color: #fafafa;
     border: 1px solid #99cc99;
@@ -745,231 +739,32 @@ pre {
 
 /* FOOTER
 ----------------------------------------------- */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003287}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003290}}
 .the-footer a:link {
   color: #c26164;
   border: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003291}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003294}}
 .the-footer a:visited {
   color: #ad4346;
   border: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003295}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003298}}
 .the-footer a:hover {
   color: #d08688;
   border: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003300}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003303}}
 .the-footer ul {
   list-style: square;
   padding-left: 1em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003304}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003307}}
 .the-footer address {
   font-style: normal; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003305}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003308}}
 .the-footer .license {
   clear: both; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003307}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/styles\.scss}line{font-family:\00003310}}
   .the-footer .license p {
     margin-bottom: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_mediaqueries\.scss}line{font-family:\000034}}
-.the-header .unit-head {
-  padding: 26px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_mediaqueries\.scss}line{font-family:\000037}}
-  .the-header .unit-head .nav-global .logo {
-    display: block;
-    width: auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_mediaqueries\.scss}line{font-family:\0000310}}
-    .the-header .unit-head .nav-global .logo a {
-      display: block;
-      font-size: 30px;
-      line-height: 52px;
-      padding-bottom: 26px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_mediaqueries\.scss}line{font-family:\0000323}}
-.body .unit-body {
-  border-top: 1px solid rgba(255, 255, 255, 0.6);
-  padding: 26px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_mediaqueries\.scss}line{font-family:\0000329}}
-.the-footer {
-  background-color: #1a1a1a;
-  background-color: rgba(21, 25, 25, 0.8);
-  color: #fafafa;
-  color: rgba(250, 250, 250, 0.8);
-  padding: 26px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_mediaqueries\.scss}line{font-family:\0000335}}
-  .the-footer a:link {
-    color: #c26164;
-    border: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_mediaqueries\.scss}line{font-family:\0000339}}
-  .the-footer a:visited {
-    color: #ad4346;
-    border: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_mediaqueries\.scss}line{font-family:\0000343}}
-  .the-footer a:hover {
-    color: #d08688;
-    border: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_mediaqueries\.scss}line{font-family:\0000348}}
-  .the-footer h4 {
-    margin-top: 0; }
-
-/*
- 	IE
-*/
-/*
-	Smartphone
-*/
-@media only screen and (min-width: 320px) and (max-width: 767px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_mediaqueries\.scss}line{font-family:\0000366}}
-  img {
-    max-width: 100%; } }
-/*
-	Tablet
-*/
-@media only screen and (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_mediaqueries\.scss}line{font-family:\0000376}}
-  .the-header .unit-head {
-    padding: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_mediaqueries\.scss}line{font-family:\0000379}}
-    .the-header .unit-head .nav-global li {
-      float: left;
-      border: 1px solid rgba(0, 0, 0, 0.05);
-      border-width: 0 1px 0 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_mediaqueries\.scss}line{font-family:\0000383}}
-      .the-header .unit-head .nav-global li a, .the-header .unit-head .nav-global li div {
-        display: block;
-        padding: 26px;
-        height: 26px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_mediaqueries\.scss}line{font-family:\0000389}}
-      .the-header .unit-head .nav-global li a:hover {
-        background-color: #fff04a;
-        color: #474747; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_mediaqueries\.scss}line{font-family:\0000394}}
-    .the-header .unit-head .nav-global li:nth-child(2) {
-      border-width: 0 1px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_mediaqueries\.scss}line{font-family:\0000395}}
-    .the-header .unit-head .nav-global li:last-child {
-      border-width: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_mediaqueries\.scss}line{font-family:\0000396}}
-    .the-header .unit-head .nav-global .logo {
-      border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-      border-right: none 0;
-      display: block;
-      width: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_mediaqueries\.scss}line{font-family:\00003101}}
-      .the-header .unit-head .nav-global .logo a {
-        font-size: 30px;
-        line-height: normal; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_mediaqueries\.scss}line{font-family:\00003105}}
-      .the-header .unit-head .nav-global .logo a:hover {
-        background-color: transparent; } }
-/*
-	Not that old computer layout 
-*/
-@media only screen and (min-width: 1280px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_mediaqueries\.scss}line{font-family:\00003122}}
-  .the-header .unit-head .nav-global .logo {
-    border-bottom: 0 none;
-    display: block;
-    width: auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_mediaqueries\.scss}line{font-family:\00003126}}
-    .the-header .unit-head .nav-global .logo a {
-      line-height: 18px;
-      margin-bottom: 0;
-      padding-left: 52px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_mediaqueries\.scss}line{font-family:\00003136}}
-  .body {
-    float: left;
-    width: 100%;
-    margin-right: -450px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_mediaqueries\.scss}line{font-family:\00003140}}
-    .body .unit-body {
-      border-top: 0 none;
-      margin-right: 450px;
-      padding: 26px 52px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_mediaqueries\.scss}line{font-family:\00003147}}
-  .the-footer {
-    background-color: transparent;
-    color: #2d2d2d;
-    position: relative;
-    top: auto;
-    display: block;
-    float: left;
-    padding: 0 0 0 26px;
-    width: 420px; } }
-/*
-	Huge-screen layout 
-*/
-@media only screen and (min-width: 1410px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_mediaqueries\.scss}line{font-family:\00003167}}
-  .the-header {
-    float: left;
-    width: 19%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_mediaqueries\.scss}line{font-family:\00003170}}
-    .the-header .unit-head {
-      padding: 26px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_mediaqueries\.scss}line{font-family:\00003173}}
-      .the-header .unit-head .nav-global li {
-        float: none;
-        border: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_mediaqueries\.scss}line{font-family:\00003176}}
-        .the-header .unit-head .nav-global li a, .the-header .unit-head .nav-global li div {
-          display: block;
-          padding: 2px 5px;
-          height: auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_mediaqueries\.scss}line{font-family:\00003182}}
-      .the-header .unit-head .nav-global li:nth-child(2) {
-        border-width: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_mediaqueries\.scss}line{font-family:\00003183}}
-      .the-header .unit-head .nav-global .logo {
-        border-bottom: none 0;
-        display: list-item;
-        width: auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_mediaqueries\.scss}line{font-family:\00003187}}
-        .the-header .unit-head .nav-global .logo a {
-          display: block;
-          font-size: 30px;
-          line-height: 52px;
-          margin-bottom: 26px;
-          padding-left: 5px;
-          position: relative;
-          top: auto; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_mediaqueries\.scss}line{font-family:\00003201}}
-  .body {
-    border-left: 1px solid rgba(0, 0, 0, 0.2);
-    -webkit-box-shadow: white 0px 0px 2px;
-    -moz-box-shadow: white 0px 0px 2px;
-    -o-box-shadow: white 0px 0px 2px;
-    float: left;
-    width: 81%;
-    margin-right: -450px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_mediaqueries\.scss}line{font-family:\00003209}}
-    .body .unit-body {
-      border-right: 1px solid rgba(0, 0, 0, 0.2);
-      -webkit-box-shadow: white 0px 0px 2px;
-      -moz-box-shadow: white 0px 0px 2px;
-      -o-box-shadow: white 0px 0px 2px;
-      margin-right: 450px;
-      padding: 26px 52px;
-      min-height: 1050px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_mediaqueries\.scss}line{font-family:\00003220}}
-  .the-footer {
-    position: relative;
-    top: auto;
-    display: block;
-    float: left;
-    padding: 26px 0 0 26px;
-    width: 420px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_mediaqueries\.scss}line{font-family:\00003227}}
-    .the-footer h4 {
-      font-size: 30px;
-      line-height: 52px;
-      margin-top: 0;
-      margin-bottom: 26px; } }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_syntaxhighlighter\.scss}line{font-family:\000031}}
 pre .c {
   color: #999999;
@@ -1393,46 +1188,26 @@ hr {
   -moz-box-sizing: content-box; }
 
 /* Contain floats: h5bp.com/q */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_helper\.scss}line{font-family:\0000333}}
-.clearfix:before,
-.clearfix:after,
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_helper\.scss}line{font-family:\0000323}}
 .cf:before,
-.cf:after,
-.hasGrid:before,
-.hasGrid:after,
-.unit-inner:before,
-.unit-inner:after,
-.tag_box:before,
-.tag_box:after,
-#page:before,
-#page:after {
+.cf:after {
   content: "";
   display: table; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_helper\.scss}line{font-family:\0000339}}
-.clearfix:after,
-.cf:after,
-.hasGrid:after,
-.unit-inner:after,
-.tag_box:after,
-#page:after {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_helper\.scss}line{font-family:\0000324}}
+.cf:after {
   clear: both; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_helper\.scss}line{font-family:\0000345}}
-.clearfix,
-.cf,
-.hasGrid,
-.unit-inner,
-.tag_box,
-#page {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_helper\.scss}line{font-family:\0000325}}
+.cf {
   *zoom: 1; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_helper\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_helper\.scss}line{font-family:\0000326}}
 .left {
   *display: inline;
   float: left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_helper\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_helper\.scss}line{font-family:\0000330}}
 .right {
   *display: inline;
   float: right; }

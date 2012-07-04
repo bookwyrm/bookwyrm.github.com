@@ -1,5 +1,8 @@
 @import "_base";
+@import "_wrapper";
+@import "_layout";
 @import "_modules";
+@import "_behaviors";
 @import "_sass-base";
 
 /* VARIABLES
@@ -16,15 +19,15 @@ html {
 }
 
 #page {
-	background: url('@{noise-100-90-5}');
-	background-repeat: repeat;
-	background-position: 0 0;
-	background-color: #e2e2de;
+//  background: url('@{noise-100-90-5}');
+//  background-repeat: repeat;
+//  background-position: 0 0;
+//  background-color: #e2e2de;
 }
 
 .body {
 	.unit-body {
-		background-color: #fafafa;
+//    background-color: #fafafa;
 	}
 }
 
@@ -308,6 +311,6 @@ pre {
 	}
 }
 
-@import "_mediaqueries";
+//@import "_mediaqueries";
 @import "_syntaxhighlighter";
 @import "_helper";
