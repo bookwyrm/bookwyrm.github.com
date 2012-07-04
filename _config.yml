@@ -107,6 +107,12 @@ JB :
   pages_list :
     provider : "custom"   
 
+  tags_list :
+    provider : "custom"
+    
+  categories_list :
+    provider : "custom"
+
   # Setting any helper's provider to 'custom' will bypass the helper code
   # and include your custom code. Your custom file must be defined at:
   #   ./_includes/custom/[HELPER]

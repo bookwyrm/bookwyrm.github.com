@@ -1,13 +1,20 @@
 @import "site-settings",
-        "fonts",
         "helpers",
         "normalize";
+//        "fonts",
 //        "sass-base";
         
 /* GLOBAL
 --------------------------------------------------------------------------------- */
 html {
+  background: url('http://www.baselineme.com/24');
   color: $main-font-color;
+  font-size: #{$base-font-size}px;
+  line-height: ($base-font-size*1.85)px;
+}
+
+body {
+  font-family: $font-stack;
 }
 
 #page {
@@ -62,11 +69,6 @@ Calculation should be done via  http://j.mp/rNg5uA
 No styleguide reference.
 */
 
-body {
-  font-family: $font-stack;
-  font-size: $font-size / 16*1em;
-  line-height: #{$line-height} / #{$em};
-}
 
 /*
 Font size setting
@@ -85,26 +87,26 @@ h1, .h1 {
   margin-bottom: 26px;
 }
 h2, .h2 {
-  font-size: 30px;
-  line-height: 52px;
-  margin-top: 52px;
-  margin-bottom: 26px;
+  @include font-size(30, 2);
+  margin: 24px 0;
 }
 h3, .h3 {
-  font-size: 25.888px;
-  line-height: 26px;
-  margin-top: 26px;
-  margin-bottom: 26px;
+  @include font-size(24, 1);
+  padding-top: 12px;
+  margin: 0 0 12px;
 }
 h4, .h4 {
-  font-size: 18.541px;
-  line-height: 26px;
-  margin-top: 26px;
-  margin-bottom: 26px;
+  @include font-size(18, 1);
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 p, ul, ol, dl, img {
   margin-top: 0;
-  margin-bottom: #{$line-height} / #{$em};
+  margin-bottom: #{$base-line-height}px;
+}
+
+p {
+  @include font-size(16);
 }
 //small, .small, aside { font-size: 0.75 * ($font-size / $em); }
 //.font-size-default { font-size: $font-size / $em; }
@@ -113,3 +115,7 @@ blockquote { font-weight: bold; }
 blockquote cite { font-weight: normal; }
 strong { font-weight: bold; }
 em { font-weight: bold; }
+
+li {
+  @include font-size(16, 1);
+}

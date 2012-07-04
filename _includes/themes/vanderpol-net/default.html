@@ -4,8 +4,8 @@
 <!--[if IE 8]> <html class="ie8 oldie" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     {% if page.blog %}
         {% if page.title %}
             <title>{{ page.title }} - {{ site.blog_title }}</title>
@@ -19,15 +19,15 @@
             <title>{{ site.title }}</title>
         {% endif %}
     {% endif %}
-	{% if page.meta_description %}
-		<meta name="description" content="{{ page.meta_description }}">
-	{% endif %}
-	<meta name="author" content="{{ site.author.name }}">
+    {% if page.meta_description %}
+        <meta name="description" content="{{ page.meta_description }}">
+    {% endif %}
+    <meta name="author" content="{{ site.author.name }}">
     <!--[if lt IE 9]>
         <script src="/js/libs/html5shiv-3.3.min.js"></script>
     <![endif]-->
     {% include JB/analytics %}
-	<link href="{{ ASSET_PATH }}/css/styles.css" rel="stylesheet" media="all">
+    <link href="{{ ASSET_PATH }}/css/styles.css" rel="stylesheet" media="all">
     {% if site.author.feedburner %}
         <link href="http://feeds.feedburner.com/{{ site.author.feedburner }}" rel="alternate" title="{{ page.title }}" type="application/atom+xml">
     {% endif %}
@@ -35,72 +35,68 @@
 {% if page.blog %}<body class="blog">{% else %}<body>{% endif %}
 
 <div id="page" class="hentry">
-	<header class="the-header">
-		<div class="unit-head">
-			<div class="unit-inner unit-head-inner">
-				<nav class="nav-global">
-					<ul>
-                        {% if page.blog %}
-                            <li class="logo"><a href="/checking-entropy/">{{ site.blog_title }}</a></li>
-                            <li class="home"><a href="/">vanderpol.net</a></li>
-    						<li class="archive"><a href="/checking-entropy/archive.html">archive</a></li>
-    						<li class="category"><a href="/checking-entropy/categories.html">categories</a></li>
-    						<li class="tag"><a href="/checking-entropy/tags.html">tags</a></li>
-                        {% else %}
-                            <li class="logo"><a href="/">{{ site.title }}</a></li>
-                            <li class="blog"><a href="/checking-entropy/">{{ site.blog_title }}</a></li>
-                            <li class="hire"><a href="/contracting.html">Contracting</a></li>
-                        {% endif %}
-						<!-- <li class="page"><a href="/pages.html">pages</a></li> -->
-					</ul>
-				</nav>
-			</div><!-- unit-inner -->
-		</div><!-- unit-head -->
-	</header>
-	<div class="body" role="main">
-		<div class="unit-body">
-			<div class="unit-inner unit-body-inner">
-				<div class="entry-content">
-					{{ content }}
-				</div>
-			</div><!-- unit-inner -->
-		</div><!-- unit-body -->
-	</div><!-- body -->
-	<footer class="the-footer">
-		<div class="unit-foot">
-			<div class="unit-inner unit-foot-inner">
-				<div class="misc vcard">
-					<h4>about</h4>
-            		<section class="myCard">
+    <header id="Header" class="l-container cf">
+        <nav class="nav-global">
+            <ul>
+                {% if page.blog %}
+                    <li class="logo"><a href="/checking-entropy/">{{ site.blog_title }}</a></li>
+                    <li class="home"><a href="/">vanderpol.net</a></li>
+                    <li class="archive"><a href="/checking-entropy/archive.html">archive</a></li>
+                    <li class="category"><a href="/checking-entropy/categories.html">categories</a></li>
+                    <li class="tag"><a href="/checking-entropy/tags.html">tags</a></li>
+                {% else %}
+                    <li class="logo"><a href="/">{{ site.title }}</a></li>
+                    <li class="blog"><a href="/checking-entropy/">{{ site.blog_title }}</a></li>
+                    <li class="hire"><a href="/contracting.html">Contracting</a></li>
+                {% endif %}
+                <!-- <li class="page"><a href="/pages.html">pages</a></li> -->
+            </ul>
+        </nav>
+    </header>
+    <div class="body l-container" role="main">
+        <div class="unit-body">
+            <div class="unit-inner unit-body-inner">
+                <div class="entry-content">
+                    {{ content }}
+                </div>
+            </div><!-- unit-inner -->
+        </div><!-- unit-body -->
+    </div><!-- body -->
+    <footer class="the-footer l-container">
+        <div class="unit-foot">
+            <div class="unit-inner unit-foot-inner">
+                <div class="misc vcard">
+                    <h4>about</h4>
+                    <section class="myCard">
                         <a href="http://vanderpol.net" class="url fn">Matt Vanderpol</a>
                         <span class="title">Web Developer</span>
                         <a class="email" href="mailto:matt@vanderpol.net">matt@vanderpol.net</a>
-            			<div class="tel"><a href="tel:530-451-6887">530-451-6887</a></div>
+                        <div class="tel"><a href="tel:530-451-6887">530-451-6887</a></div>
                     </section>
-					<ul>
-						<li class="github"><a href="https://github.com/{{ site.author.github }}/" rel="me">github.com/{{ site.author.github }}</a></li>
-						<li class="twitter"><a href="http://twitter.com/{{ site.author.twitter }}/" rel="me">twitter.com/{{ site.author.twitter }}</a></li>
-						<li class="linkedin"><a href="http://www.linkedin.com/in/mattvanderpol" rel="me">linkedin.com/in/mattvanderpol</a></li>
+                    <ul>
+                        <li class="github"><a href="https://github.com/{{ site.author.github }}/" rel="me">github.com/{{ site.author.github }}</a></li>
+                        <li class="twitter"><a href="http://twitter.com/{{ site.author.twitter }}/" rel="me">twitter.com/{{ site.author.twitter }}</a></li>
+                        <li class="linkedin"><a href="http://www.linkedin.com/in/mattvanderpol" rel="me">linkedin.com/in/mattvanderpol</a></li>
                         <!-- <li class="rss"><a href="http://feeds.feedburner.com/{{ site.author.feedname }}">Subscribe to RSS Feed</a></li> -->
-					</ul>
-				</div><!-- misc -->
-				<p class="copy">© 2012 Matt Vanderpol</p>
-				<p class="license"><small>Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a>.</small></p>
-			</div><!-- unit-foot-inner -->
-		</div><!-- unit-foot -->
-	</footer>
+                    </ul>
+                </div><!-- misc -->
+                <p class="copy">© 2012 Matt Vanderpol</p>
+                <p class="license"><small>Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a>.</small></p>
+            </div><!-- unit-foot-inner -->
+        </div><!-- unit-foot -->
+    </footer>
 </div><!-- page -->
 <script>
-	(function(d, s) {
-		var js, fjs = d.getElementsByTagName(s)[0], load = function(url, id) {
-		if (d.getElementById(id)) {return;}
-		js = d.createElement(s); js.src = url; js.id = id;
-		fjs.parentNode.insertBefore(js, fjs);
-		};
-	load('//platform.twitter.com/widgets.js', 'tweetjs');
-	// load('https://apis.google.com/js/plusone.js', 'gplus1js'); // Checkout http://j.mp/ApDgMr for usage html for this is <div class="g-plusone" data-size="medium"></div>
-	// load('//connect.facebook.net/en_US/all.js#xfbml=1', 'fbjssdk'); // Checkout http://j.mp/wZw2xR for using open graph protorol html for this is <div class="fb-like" data-href="{{ page.url }}" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-font="verdana"></div>
-	}(document, 'script'));
+    (function(d, s) {
+        var js, fjs = d.getElementsByTagName(s)[0], load = function(url, id) {
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.src = url; js.id = id;
+        fjs.parentNode.insertBefore(js, fjs);
+        };
+    load('//platform.twitter.com/widgets.js', 'tweetjs');
+    // load('https://apis.google.com/js/plusone.js', 'gplus1js'); // Checkout http://j.mp/ApDgMr for usage html for this is <div class="g-plusone" data-size="medium"></div>
+    // load('//connect.facebook.net/en_US/all.js#xfbml=1', 'fbjssdk'); // Checkout http://j.mp/wZw2xR for using open graph protorol html for this is <div class="fb-like" data-href="{{ page.url }}" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-font="verdana"></div>
+    }(document, 'script'));
 </script>
 <script>
 /*! A fix for the iOS orientationchange zoom bug.Script by @scottjehl, rebound by @wilto. MIT License.*/

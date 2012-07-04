@@ -36,8 +36,8 @@
 				<div class="misc-content">
 					<div class="social">
 						<ul class="list-linear">
-							<li><div class="twitter-tweet"><a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="{{ site.author.twitter }}" data-lang="en">Tweet</a></div></li>
-							<li><div class="twitter-follow"><a href="https://twitter.com/{{ site.author.twitter }}" class="twitter-follow-button" data-show-count="false" data-lang="en"></a></div></li>
+							<li class="list-item"><div class="twitter-tweet"><a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="{{ site.author.twitter }}" data-lang="en">Tweet</a></div></li>
+							<li class="list-item"><div class="twitter-follow"><a href="https://twitter.com/{{ site.author.twitter }}" class="twitter-follow-button" data-show-count="false" data-lang="en"></a></div></li>
 						</ul>
 					</div>
 					<div class="comment">
@@ -48,7 +48,7 @@
 			<footer class="unit-foot">
 				<div class="unit-inner unit-foot-inner">
 					<nav class="pagination">
-						<ul>
+						<ul class="pagination-container">
 							{% if page.previous %}
 							<li class="prev"><a class="internal" rel="prev"  href="{{ page.previous.url }}" title="View {{ page.previous.title }}">&laquo; {{ page.previous.title }}</a></li>
 							{% endif %}

@@ -8,5 +8,11 @@
   & {overflow: hidden;text-indent: 100%;white-space: nowrap;}
 }
 
+@mixin font-size($fontsize, $line-height-multiplier:1, $base: $base-font-size) {
+  font-size: #{$fontsize}px;
+  font-size: #{($fontsize/$base)}rem;
+  line-height: #{(24 * $line-height-multiplier)}px;
+}
+
 //@mixin width ($cols:1) { width: ($cols * ($column + $gutter) - $gutter) / $em; }
 

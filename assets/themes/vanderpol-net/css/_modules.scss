@@ -1,0 +1,19 @@
+.list-linear {
+  @include cf;
+  padding-left: 20px;
+
+  .list-head, .list-item {
+    float: left;
+    list-style: none;
+    margin-right: 4px;
+  }
+  .list-item { margin-right: 16px; }
+}
+
+.social {
+  height: 48px;
+}
+
+.pagination-container {
+  margin-bottom: 19px;
+}
