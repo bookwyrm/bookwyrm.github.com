@@ -351,11 +351,11 @@ HTML should look like this and .bd is required:
 
 No styleguide reference.
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_module\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_modules\.scss}line{font-family:\0000316}}
 .mod .inner {
   position: relative; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_module\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_modules\.scss}line{font-family:\0000317}}
 .mod .bd, .mod .ft, .mod .hd {
   overflow: hidden;
   *overflow: visible;
@@ -375,27 +375,27 @@ HTML should look like this and .media-left or .media-right and .bd is required:
 
 No styleguide reference.
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_module\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_modules\.scss}line{font-family:\0000334}}
 .media {
   overflow: hidden;
   *overflow: visible;
   zoom: 1; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_module\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_modules\.scss}line{font-family:\0000335}}
 .media .media-left {
   float: left;
   margin-right: 14px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_module\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_modules\.scss}line{font-family:\0000336}}
 .media .img img {
   display: block; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_module\.scss}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_modules\.scss}line{font-family:\0000337}}
 .media .media-right {
   float: right;
   margin-left: 14px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_module\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_modules\.scss}line{font-family:\0000338}}
 .media .bd, .media .ft, .media .hd {
   overflow: hidden;
   *overflow: visible;
