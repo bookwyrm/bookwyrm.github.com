@@ -1,16 +1,67 @@
 
 #Header {
-  height: 48px;
+  margin-bottom: #{$base-line-height}px;
+  ul { margin: 0; padding: 0; }
   .logo {
-    position: absolute;
-    left: 0;
-    top: 0;
+    font-family: $font-ubuntu;
+    font-weight: 400;
+    margin: 0 40px 0 0;
+    padding: 0;
+    border: none;
+    background: #fff;
+    text-transform: none;
+    @include font-size(48, 2);
+
+    :before, :after {
+      content: '';
+      border: 0;
+      height: 0;
+      width: 0;
+    }
   }
   .nav-global {
     
   }
   li {
+    $border-color: #666;
+    $border-radius: 32px;
+    $border-radius-divider: 3.4;
     float: left;
+    font-weight: bold;
+    @include font-size(20);
+    border: 1px solid $border-color;
+    border-top: 0;
+    padding: #{($base-line-height/2) - 1}px #{$base-line-height/2}px #{$base-line-height/2}px;
+    margin: 0 $border-radius;
+    position: relative;
+    z-index: 0;
+    @include border-radius(0 0 $border-radius $border-radius);
+    @include background(linear-gradient(#fff, #999));
+    background: #fff;
+    text-transform: uppercase;
+    
+    :before, :after {
+      position: absolute;
+      top: 0;
+      width: $border-radius;
+      height: $border-radius;
+      content: " ";
+      border: 1px solid $border-color;
+//      @include border-radius(0 8px 0 0);
+    }
+    
+    :before {
+      left: -#{$border-radius + 1};
+      @include border-radius(0 $border-radius 0 0);
+      border-width: 1px 1px 0 0;
+      box-shadow: #{$border-radius / $border-radius-divider} -#{$border-radius / $border-radius-divider} 0 #fff;
+    }
+    :after {
+      right: -#{$border-radius + 1};
+      @include border-radius($border-radius 0 0 0);
+      border-width: 1px 0 0 1px;
+      box-shadow: -#{$border-radius / $border-radius-divider} -#{$border-radius / $border-radius-divider} 0 #fff;
+    }
   }
 }
 
@@ -38,7 +89,7 @@
 
     header {
       border-bottom: 5px solid rgba(21, 25, 25, 0.8);
-      margin-bottom: 19px;
+      margin-bottom: #{($base-line-height - 5)}px;
       h1 {
         color: $main-font-color;
         margin-top: 0;

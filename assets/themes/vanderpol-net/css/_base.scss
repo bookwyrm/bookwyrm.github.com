@@ -1,3 +1,4 @@
+@import "compass/css3";
 @import "site-settings",
         "helpers",
         "normalize";
@@ -7,7 +8,7 @@
 /* GLOBAL
 --------------------------------------------------------------------------------- */
 html {
-  background: url('http://www.baselineme.com/24');
+//  background: url('http://www.baselineme.com/#{$base-line-height}');
   color: $main-font-color;
   font-size: #{$base-font-size}px;
   line-height: ($base-font-size*1.85)px;
@@ -15,6 +16,7 @@ html {
 
 body {
   font-family: $font-stack;
+  @include font-size(20)
 }
 
 #page {
@@ -81,24 +83,29 @@ No styleguide reference.
 h1, h2, h3, h4, h5, h6 { font-family: $webfont; }
 
 h1, .h1 {
+  font-family: $font-ubuntu;
+  font-weight: 500;
   font-size: 30px;
   line-height: 52px;
   margin-top: 52px;
   margin-bottom: 26px;
+  text-transform: uppercase;
 }
 h2, .h2 {
   @include font-size(30, 2);
-  margin: 24px 0;
+  font-family: $font-ubuntu;
+  font-weight: 500;
+  margin: #{$base-line-height}px 0 0;
 }
 h3, .h3 {
   @include font-size(24, 1);
-  padding-top: 12px;
-  margin: 0 0 12px;
+  padding-top: #{$base-line-height/2}px;
+  margin: 0 0 #{$base-line-height/2}px;
 }
 h4, .h4 {
   @include font-size(18, 1);
-  margin-top: 24px;
-  margin-bottom: 24px;
+  margin-top: #{$base-line-height}px;
+  margin-bottom: #{$base-line-height}px;
 }
 p, ul, ol, dl, img {
   margin-top: 0;
@@ -106,7 +113,7 @@ p, ul, ol, dl, img {
 }
 
 p {
-  @include font-size(16);
+  @include font-size(20);
 }
 //small, .small, aside { font-size: 0.75 * ($font-size / $em); }
 //.font-size-default { font-size: $font-size / $em; }

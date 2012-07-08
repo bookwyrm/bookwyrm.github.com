@@ -11,7 +11,7 @@
 @mixin font-size($fontsize, $line-height-multiplier:1, $base: $base-font-size) {
   font-size: #{$fontsize}px;
   font-size: #{($fontsize/$base)}rem;
-  line-height: #{(24 * $line-height-multiplier)}px;
+  line-height: #{($base-line-height * $line-height-multiplier)}px;
 }
 
 //@mixin width ($cols:1) { width: ($cols * ($column + $gutter) - $gutter) / $em; }

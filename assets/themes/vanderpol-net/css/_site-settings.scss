@@ -8,7 +8,7 @@ $accent-color: #c26164;
 
 $base-font-size: 13;
 $font-size: $base-font-size;
-$base-line-height: 24;		// Your base line-height in pixels
+$base-line-height: 32;		// Your base line-height in pixels
 $line-height: $base-line-height;
 $line-height-multiplier: $base-line-height / $base-font-size;
 $em: $base-font-size * 1em;	// Shorthand for outputting ems, e.g. "12/$em"
@@ -23,9 +23,13 @@ Font families
 No styleguide reference.
 */
 
-$font-stack: consolas, monaco, monospace;
 $webfont: UbuntuMono-B, consolas, monaco, monospace;
 
+$font-base: 'arial', 'sans-serif';
+$font-pt-sans-narrow: 'PT Sans Narrow', $font-base;
+$font-pt-sans: 'PT Sans', $font-base;
+$font-ubuntu: 'Ubuntu', $font-base;
+$font-stack: Georgia, serif;
 
 /*
 Color schemes

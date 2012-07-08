@@ -26,7 +26,10 @@
     <!--[if lt IE 9]>
         <script src="/js/libs/html5shiv-3.3.min.js"></script>
     <![endif]-->
+    
     {% include JB/analytics %}
+    <!-- http://www.google.com/webfonts/#UsePlace:use/Collection:Istok+Web:400,700|PT+Sans+Narrow:400,700|PT+Sans:400,700|Ubuntu:500,400|Dosis:400,700|Gudea:700,400|Acme|Karla:400,700|PT+Sans+Caption:400,700|Francois+One -->
+    <link href='http://fonts.googleapis.com/css?family=Istok+Web:400,700|PT+Sans+Narrow:400,700|PT+Sans:400,700|Ubuntu:500,400|Dosis:400,700|Gudea:700,400|Acme|Karla:400,700|PT+Sans+Caption:400,700|Francois+One' rel='stylesheet' type='text/css'>
     <link href="{{ ASSET_PATH }}/css/styles.css" rel="stylesheet" media="all">
     {% if site.author.feedburner %}
         <link href="http://feeds.feedburner.com/{{ site.author.feedburner }}" rel="alternate" title="{{ page.title }}" type="application/atom+xml">
@@ -35,9 +38,9 @@
 {% if page.blog %}<body class="blog">{% else %}<body>{% endif %}
 
 <div id="page" class="hentry">
-    <header id="Header" class="l-container cf">
+    <header id="Header" class="l-container">
         <nav class="nav-global">
-            <ul>
+            <ul class="cf">
                 {% if page.blog %}
                     <li class="logo"><a href="/checking-entropy/">{{ site.blog_title }}</a></li>
                     <li class="home"><a href="/">vanderpol.net</a></li>
@@ -47,7 +50,7 @@
                 {% else %}
                     <li class="logo"><a href="/">{{ site.title }}</a></li>
                     <li class="blog"><a href="/checking-entropy/">{{ site.blog_title }}</a></li>
-                    <li class="hire"><a href="/contracting.html">Contracting</a></li>
+                    <li class="hire"><a href="/consulting.html">Consulting</a></li>
                 {% endif %}
                 <!-- <li class="page"><a href="/pages.html">pages</a></li> -->
             </ul>
@@ -102,6 +105,8 @@
 /*! A fix for the iOS orientationchange zoom bug.Script by @scottjehl, rebound by @wilto. MIT License.*/
 (function(j){var i=j.document;if(!i.querySelectorAll){return}var l=i.querySelectorAll("meta[name=viewport]")[0],a=l&&l.getAttribute("content"),h=a+", maximum-scale=1.0",d=a+", maximum-scale=10.0",g=true,c=j.orientation,k=0;if(!l){return}function f(){l.setAttribute("content",d);g=true}function b(){l.setAttribute("content",h);g=false}function e(m){c=Math.abs(j.orientation);k=Math.abs(m.gamma);if(k>8&&c===0){if(g){b()}}else{if(!g){f()}}}j.addEventListener("orientationchange",f,false);j.addEventListener("deviceorientation",e,false)})(this);
 </script>
+
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
   
 </body>
 </html>
