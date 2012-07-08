@@ -1,21 +1,40 @@
 
 #Header {
   margin-bottom: #{$base-line-height}px;
+//  height: #{($base-line-height * 2) - 2}px;
+  padding-bottom: 12px;
+//  border-bottom: 3px solid #aaa;
+
+  :after {
+    content: '';
+//    position: relative;
+    border-bottom: 3px solid #999;
+//    left: 2px;
+//    bottom: -2px;
+  }
+  
   ul { margin: 0; padding: 0; }
   .logo {
-    margin: 0 40px 0 0;
+    margin: 0 40px 0 0 !important;
     padding: 0;
-    border: none;
-    background: #fff;
+//    border: none;
+//    background: #fff;
     text-transform: none;
-    @include font-size(48, 2);
+    @include font-size(48);
+//    text-align: bottom;
 
-    :before, :after {
-      content: '';
-      border: 0;
-      height: 0;
-      width: 0;
+    .csstransforms & {
+      @include rotate(0);
+      width: auto;
+      padding-top: 64px;
     }
+    
+//    :before, :after {
+//      content: '';
+//      border: 0;
+//      height: 0;
+//      width: 0;
+//    }
   }
   .nav-global {
     
@@ -31,14 +50,24 @@
     @include font-size(20);
 //    border: 1px solid $border-color;
     border-top: 0;
-    padding: #{($base-line-height/2) - 1}px #{$base-line-height/2}px #{$base-line-height/2}px;
+    padding: #{($base-line-height/2)}px #{$base-line-height/2}px #{$base-line-height/2}px;
     margin: 0 $border-radius;
     position: relative;
     z-index: 0;
     @include border-radius(0 0 $border-radius $border-radius);
     @include background(linear-gradient(#fff, #999));
-    background: #fff;
+    background: none;
     text-transform: uppercase;
+
+    .csstransforms & {
+      @include rotate(-25deg);
+      margin-top: 30px;
+      margin-right: -150px;
+//      text-align: right;
+      width: 220px;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
     
     * {
       @include text-shadow(#aaa 1px 1px 2px);
