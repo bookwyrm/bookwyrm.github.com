@@ -23,10 +23,8 @@
         <meta name="description" content="{{ page.meta_description }}">
     {% endif %}
     <meta name="author" content="{{ site.author.name }}">
-    <!--[if lt IE 9]>
-        <script src="/js/libs/html5shiv-3.3.min.js"></script>
-    <![endif]-->
-    
+    <script src="/js/libs/modernizr-2.5.3.min.js"></script>
+
     {% include JB/analytics %}
     <!-- http://www.google.com/webfonts/#UsePlace:use/Collection:Istok+Web:400,700|PT+Sans+Narrow:400,700|PT+Sans:400,700|Ubuntu:500,400|Dosis:400,700|Gudea:700,400|Acme|Karla:400,700|PT+Sans+Caption:400,700|Francois+One -->
     <link href='http://fonts.googleapis.com/css?family=Istok+Web:400,700|PT+Sans+Narrow:400,700|PT+Sans:400,700|Ubuntu:500,400|Dosis:400,700|Gudea:700,400|Acme|Karla:400,700|PT+Sans+Caption:400,700|Francois+One' rel='stylesheet' type='text/css'>
@@ -44,8 +42,8 @@
                 {% if page.blog %}
                     <li class="logo"><a href="/checking-entropy/">{{ site.blog_title }}</a></li>
                     <li class="home"><a href="/">vanderpol.net</a></li>
-                    <li class="archive"><a href="/checking-entropy/archive.html">archive</a></li>
                     <li class="category"><a href="/checking-entropy/categories.html">categories</a></li>
+                    <li class="archive"><a href="/checking-entropy/archive.html">archive</a></li>
                     <li class="tag"><a href="/checking-entropy/tags.html">tags</a></li>
                 {% else %}
                     <li class="logo"><a href="/">{{ site.title }}</a></li>
