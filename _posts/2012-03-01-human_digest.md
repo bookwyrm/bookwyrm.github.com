@@ -2,7 +2,7 @@
 layout: post
 title: "HumanDigest"
 category: ruby
-tags: [ruby gem humanhash]
+tags: [ruby, gem, humanhash]
 blog: true
 ---
 {% include JB/setup %}

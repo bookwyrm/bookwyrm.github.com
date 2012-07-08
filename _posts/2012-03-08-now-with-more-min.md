@@ -2,7 +2,7 @@
 layout: post
 title: "Now with More Min"
 category: Performance
-tags: [css html minify performance]
+tags: [css, html, minify, performance]
 blog: true
 ---
 {% include JB/setup %}
