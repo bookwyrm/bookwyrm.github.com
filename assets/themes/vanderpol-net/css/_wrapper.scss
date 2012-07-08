@@ -3,8 +3,6 @@
   margin-bottom: #{$base-line-height}px;
   ul { margin: 0; padding: 0; }
   .logo {
-    font-family: $font-ubuntu;
-    font-weight: 400;
     margin: 0 40px 0 0;
     padding: 0;
     border: none;
@@ -24,12 +22,14 @@
   }
   li {
     $border-color: #666;
-    $border-radius: 32px;
+    $border-radius: 0px;
     $border-radius-divider: 3.4;
+    font-family: $font-ubuntu;
+    font-weight: 400;
     float: left;
-    font-weight: bold;
+//    font-weight: bold;
     @include font-size(20);
-    border: 1px solid $border-color;
+//    border: 1px solid $border-color;
     border-top: 0;
     padding: #{($base-line-height/2) - 1}px #{$base-line-height/2}px #{$base-line-height/2}px;
     margin: 0 $border-radius;
@@ -40,28 +40,35 @@
     background: #fff;
     text-transform: uppercase;
     
-    :before, :after {
-      position: absolute;
-      top: 0;
-      width: $border-radius;
-      height: $border-radius;
-      content: " ";
-      border: 1px solid $border-color;
-//      @include border-radius(0 8px 0 0);
+    * {
+      @include text-shadow(#aaa 1px 1px 2px);
+      color: #444;
     }
-    
-    :before {
-      left: -#{$border-radius + 1};
-      @include border-radius(0 $border-radius 0 0);
-      border-width: 1px 1px 0 0;
-      box-shadow: #{$border-radius / $border-radius-divider} -#{$border-radius / $border-radius-divider} 0 #fff;
+    :hover {
+      @include text-shadow(#666 1px 1px 2px);
     }
-    :after {
-      right: -#{$border-radius + 1};
-      @include border-radius($border-radius 0 0 0);
-      border-width: 1px 0 0 1px;
-      box-shadow: -#{$border-radius / $border-radius-divider} -#{$border-radius / $border-radius-divider} 0 #fff;
-    }
+//    :before, :after {
+//      position: absolute;
+//      top: 0;
+//      width: $border-radius;
+//      height: $border-radius;
+//      content: " ";
+//      border: 1px solid $border-color;
+////      @include border-radius(0 8px 0 0);
+//    }
+//    
+//    :before {
+//      left: -#{$border-radius + 1};
+//      @include border-radius(0 $border-radius 0 0);
+//      border-width: 1px 1px 0 0;
+//      box-shadow: #{$border-radius / $border-radius-divider} -#{$border-radius / $border-radius-divider} 0 #fff;
+//    }
+//    :after {
+//      right: -#{$border-radius + 1};
+//      @include border-radius($border-radius 0 0 0);
+//      border-width: 1px 0 0 1px;
+//      box-shadow: -#{$border-radius / $border-radius-divider} -#{$border-radius / $border-radius-divider} 0 #fff;
+//    }
   }
 }
 
@@ -188,6 +195,7 @@
 
     .unit-foot {
       border-top: 5px solid rgba(21, 25, 25, 0.8);
+      padding: #{($base-line-height / 2) - 5}px 0 #{$base-line-height / 2}px;
 //      padding-top: $line-height / $em;
       position: relative;
       nav ul {

@@ -30,7 +30,7 @@ I customized an existing open source event calendar to improve the security and 
 
 In all the years I’ve been a web developer, the process of collecting feedback and issues during the <abbr title="Quality Assurance">QA</abbr> phase has been fraught with difficulty. That’s why I created [qatab](http://qatab.com). With qatab it’s easy for users to submit feedback or notes on what’s wrong and the solution automatically captures time, URL and browser info - saving you from having to ask them for the specifics after the fact.
 
-# Skillset
+## Skillset
 
 A high-level view of my skills in web development.
 
