@@ -1,47 +1,69 @@
 .list-linear {
   @include cf;
+
+  // Box
   padding-left: 20px;
 
   .list-head, .list-item {
-    float: left;
-    list-style: none;
+    // Box
     margin-right: 4px;
+
+    // Layout
+    float: left;
+    
+    // Other
+    list-style: none;
   }
-  .list-item { margin-right: 16px; }
+  .list-item {
+    // Box
+    margin-right: 16px;
+  }
 }
 
 .social {
+  // Box
   height: 48px;
 }
 
 .pagination-container {
+  // Box
   margin-bottom: 19px;
 }
 
 .gist .gist-file {
+  // Box
   margin-bottom: #{$base-line-height}px !important;
-
 }
 .gist .gist-file .gist-data .gist-highlight pre {
+  // Box
   padding: 0 .5em 0 !important;
 }
 
 .gist .gist-file .gist-meta {
+  // Box
   padding: 0 0.5em !important;
+  
+  // Text
   font-size: 80% !important;
   line-height: 36px;
 }
 
 .post-date {
+  // Box
+  padding-top: 20px;
+  
+  // Layout
   float: right;
 }
 
 .post-block {
+  // Box
   border-top: 3px solid #aaa;
   margin-top: 20px;
   padding-top: 15px;
   
   &:first-child {
+    // Box
     border-top: none;
     margin-top: 0;
     padding-top: 0;
