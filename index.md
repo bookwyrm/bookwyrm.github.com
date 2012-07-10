@@ -10,7 +10,7 @@ I’ve been a web developer since 1997, am the founder of [qatab](http://qatab.c
 
 I blog at [Checking Entropy](checking-entropy/) where I try to rein in a small part of the chaos of online knowledge in an effort to increase my own (knowledge, not chaos).
     
-## Recent Posts
+## Recent Posts  {.h-subheadline}
 
 <ul class="posts">
   {% for post in site.posts %}
