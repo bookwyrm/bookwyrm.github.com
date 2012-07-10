@@ -10,14 +10,14 @@ published: false
 
 There are several different pieces that I'm going to focus on in a "modern" CSS implementation.
 
-### Reset/Normalize
+### Reset/Normalize  {.h-sectionheadline}
 
 It's important to create a level playing field.
 
-### Layout
+### Layout  {.h-sectionheadline}
 
 Use a framework. It can be one you built from scratch and understand or it can be an existing one.
 
-### Objectify
+### Objectify  {.h-sectionheadline}
 
 Build things by objects.

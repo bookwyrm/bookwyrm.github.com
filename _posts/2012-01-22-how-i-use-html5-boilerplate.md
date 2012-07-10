@@ -10,7 +10,7 @@ blog: true
 
 I’m a big fan of [HTML5 Boilerplate](http://html5boilerplate.com/) but there’s a few things I do differently...
 
-### The Beginning
+### The Beginning  {.h-sectionheadline}
 
 {% gist 1770161 HTML5B-1.html %}
 
@@ -20,7 +20,7 @@ I prefer being able to target each version of IE individually because it allows 
 
 For example, I use [CSS3PIE](http://css3pie.com/) to get rounded corners and drop shadows in IE8 and under. However, sometimes applying CSS3PIE to an element in IE7 causes issues with the display when it works just fine on IE8. Being able to target the browser versions individually let’s me provide the rounded corner effect to IE8 users while IE7 users get the squared off corners.
 
-### The Head
+### The Head  {.h-sectionheadline}
 
 {% gist 1770822 HTML5B-2.html %}
 
@@ -31,13 +31,13 @@ I know that many people (including the HTML5B folks) advocate putting the Google
 Finally, I always put the <code>link</code> tag for CSS below any <code>script</code> tags because
 <q>“a stylesheet followed by an inline script blocks subsequent downloads”</q> (<cite>[Steve Souders](http://www.stevesouders.com/blog/2010/09/22/newtwitter-performance-analysis/)</cite>).
 
-### The Body
+### The Body  {.h-sectionheadline}
 
 {% gist 1772821 HTML5B-3.html %}
 
 Not much to see here. Marking up and styling a page is a totally different topic for a different post.
 
-### On Scripts
+### On Scripts  {.h-sectionheadline}
 
 {% gist 1772836 HTML5B-3.html %}
 

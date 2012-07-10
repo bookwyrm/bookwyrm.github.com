@@ -485,6 +485,7 @@ table {
 --------------------------------------------------------------------------------- */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_base\.scss}line{font-family:\0000310}}
 html {
+  background: url("http://www.baselineme.com/40");
   color: #2d2d2d;
   font-size: 13px;
   line-height: 24.05 px; }
@@ -524,77 +525,39 @@ pre {
   -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.6);
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.6); }
 
-/*
-Base font size should be larger than 16px.
-Calculation should be done via  http://j.mp/rNg5uA
-
-No styleguide reference.
-*/
-/*
-Font size setting
-Using Golden ratio section
-http://modularscale.com/scale/?px1=16&px2=30&ra1=1.618&ra2=0
-
-No styleguide reference.
-*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_base\.scss}line{font-family:\0000383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_base\.scss}line{font-family:\0000367}}
 h1, h2, h3, h4, h5, h6 {
   font-family: "Ubuntu", "arial", "sans-serif";
   font-weight: 500; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_base\.scss}line{font-family:\0000388}}
-h1, .h1 {
-  font-size: 40px;
-  font-size: 3.077rem;
-  line-height: 40px;
-  line-height: 52px;
-  margin-top: 52px;
-  margin-bottom: 26px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_base\.scss}line{font-family:\0000396}}
-h3, .h3 {
-  font-size: 34px;
-  font-size: 2.615rem;
-  line-height: 40px;
-  padding-top: 20px;
-  margin: 0 0 20px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_base\.scss}line{font-family:\00003101}}
-h4, .h4 {
-  font-size: 28px;
-  font-size: 2.154rem;
-  line-height: 40px;
-  margin-top: 60px;
-  margin-bottom: 20px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_base\.scss}line{font-family:\00003106}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_base\.scss}line{font-family:\0000372}}
 p, ul, ol, dl, img {
   margin-top: 0;
   margin-bottom: 40px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_base\.scss}line{font-family:\00003111}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_base\.scss}line{font-family:\0000377}}
 p {
   font-size: 24px;
   font-size: 1.846rem;
   line-height: 40px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_base\.scss}line{font-family:\00003117}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_base\.scss}line{font-family:\0000383}}
 blockquote {
   font-weight: bold; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_base\.scss}line{font-family:\00003118}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_base\.scss}line{font-family:\0000384}}
 blockquote cite {
   font-weight: normal; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_base\.scss}line{font-family:\00003119}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_base\.scss}line{font-family:\0000385}}
 strong {
   font-weight: bold; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_base\.scss}line{font-family:\00003120}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_base\.scss}line{font-family:\0000386}}
 em {
   font-weight: bold; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_base\.scss}line{font-family:\00003122}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_base\.scss}line{font-family:\0000388}}
 li {
   font-size: 16px;
   font-size: 1.231rem;
@@ -606,7 +569,7 @@ li {
   Use box sizing so padding and border are inside specified width on a block element
       http://paulirish.com/2012/box-sizing-border-box-ftw/
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_base\.scss}line{font-family:\00003132}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_base\.scss}line{font-family:\0000398}}
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -991,10 +954,26 @@ li {
 */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_behaviors\.scss}line{font-family:\0000323}}
 .h-headline {
+  margin: 40px 0 0;
   font-size: 40px;
   font-size: 3.077rem;
-  line-height: 80px;
-  margin: 40px 0 0; }
+  line-height: 80px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_behaviors\.scss}line{font-family:\0000331}}
+.h-subheadline {
+  padding-top: 20px;
+  margin: 0 0 20px;
+  font-size: 34px;
+  font-size: 2.615rem;
+  line-height: 40px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_behaviors\.scss}line{font-family:\0000340}}
+.h-sectionheadline {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-size: 2.154rem;
+  line-height: 40px; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_syntaxhighlighter\.scss}line{font-family:\000031}}
 pre .c {

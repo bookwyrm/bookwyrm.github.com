@@ -21,6 +21,27 @@
     <h1 class="h-headline">Managing CSS - An Introduction</h1>
 */
 .h-headline {
-  @include font-size(40, 2);
+  // Box
   margin: #{$base-line-height}px 0 0;
+  
+  // Text
+  @include font-size(40, 2);
+}
+
+.h-subheadline {
+  // Box
+  padding-top: #{$base-line-height/2}px;
+  margin: 0 0 #{$base-line-height/2}px;  
+
+  // Text
+  @include font-size(34, 1);
+}
+
+.h-sectionheadline {
+  // Box
+  margin-top: #{$base-line-height * 1.5}px;
+  margin-bottom: #{$base-line-height / 2}px;  
+  
+  // Text
+  @include font-size(28, 1);
 }

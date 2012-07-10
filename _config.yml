@@ -5,7 +5,7 @@ permalink: /checking-entropy/:year/:month/:day/:title
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "styles.scss", 'config.rb']
 auto: true
 pygments: true
-markdown: rdiscount
+markdown: maruku
 
 # var:
 #   archive_path: /archive.html
