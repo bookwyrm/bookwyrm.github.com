@@ -1,10 +1,12 @@
 
 #Header {
-  margin-bottom: #{$base-line-height}px;
   height: #{($base-line-height * 2)}px;
+  margin-top: #{$base-line-height/4}px;
+  margin-bottom: #{3*$base-line-height/4}px;
+  position: relative;
+  z-index: 2;
   
   ul {
-//    float: right;
     margin: 0;
     padding: 0;
   }
@@ -13,18 +15,7 @@
     padding: 0;
     float: left;
     text-transform: none;
-    @include font-size(48);
-    line-height: 80px;
-//    padding-top: 64px;
-    
-    .csstransforms & {
-      @include rotate(0);
-      width: auto;
-    }
-    
-  }
-  .nav-global {
-    
+    @include font-size(48, 2);
   }
   li {
     $border-color: #666;
@@ -38,7 +29,7 @@
     line-height: 1em;
     border-top: 0;
     padding: #{($base-line-height/2)}px #{$base-line-height/2}px 0;
-    padding: 10px 20px;
+    padding: 0 0 20px;
     margin: 0 $border-radius;
     @include border-radius(0 0 $border-radius $border-radius);
     @include background(linear-gradient(#fff, #999));
