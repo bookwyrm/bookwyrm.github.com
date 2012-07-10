@@ -11,6 +11,8 @@ I just setup support for minifying CSS and HTML in the blog for better performan
 
 I created a new Rake task to minify the HTML and CSS based on [Jekyll Deploy Scripts](http://engineeredweb.com/blog/jekyll-deploy-scripts/).
 
+<!--more-->
+
 {% gist 2004110 gistfile.rb %}
 
 Now I can just run <code>rake minify</code> to prep my HTML/CSS for production.

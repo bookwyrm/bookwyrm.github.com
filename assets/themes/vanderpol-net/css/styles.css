@@ -485,7 +485,6 @@ table {
 --------------------------------------------------------------------------------- */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_base\.scss}line{font-family:\0000310}}
 html {
-  background: url("http://www.baselineme.com/40");
   color: #2d2d2d;
   font-size: 13px;
   line-height: 24.05 px; }
@@ -920,6 +919,21 @@ li {
   padding: 0 0.5em !important;
   font-size: 80% !important;
   line-height: 36px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_modules\.scss}line{font-family:\0000335}}
+.post-date {
+  float: right; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_modules\.scss}line{font-family:\0000339}}
+.post-block {
+  border-top: 3px solid #aaa;
+  margin-top: 20px;
+  padding-top: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_modules\.scss}line{font-family:\0000344}}
+  .post-block:first-child {
+    border-top: none;
+    margin-top: 0;
+    padding-top: 0; }
 
 /* 
   ## clearfix

@@ -10,6 +10,8 @@ blog: true
 
 I’m a big fan of [HTML5 Boilerplate](http://html5boilerplate.com/) but there’s a few things I do differently...
 
+<!--more-->
+
 ### The Beginning  {.h-sectionheadline}
 
 {% gist 1770161 HTML5B-1.html %}

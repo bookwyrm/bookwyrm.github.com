@@ -10,6 +10,8 @@ date: February 23, 2012
 
 I’ve been working with CSS for almost 10 years. In that time it has always bugged me that CSS frequently devolves into a mess of conflicting styles and long stylesheets. I’ve been thinking about how to make the situation better and doing some research on what other people have done, and this is the first in a series of blog posts where I will explore ways and means of managing CSS files.
 
+<!--more-->
+
 ## Goals  {.h-subheadline}
 
 Any time you set off on an “expotition” you need to have goals in mind. Goals help you evaluate your pathways and give your destination a shape.
