@@ -751,6 +751,7 @@ li {
   border-bottom: 0; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_wrapper\.scss}line{font-family:\00003182}}
 .unit-article .unit-foot {
+  margin-top: 40px;
   border-top: 5px solid rgba(21, 25, 25, 0.8);
   padding: 15px 0 20px;
   position: relative; }
@@ -987,6 +988,14 @@ li {
 .h-sectionheadline {
   margin-top: 60px;
   margin-bottom: 20px;
+  font-size: 28px;
+  font-size: 2.154rem;
+  line-height: 40px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_behaviors\.scss}line{font-family:\0000349}}
+.h-aboutheadline {
+  margin-top: 25px;
+  margin-bottom: 15px;
   font-size: 28px;
   font-size: 2.154rem;
   line-height: 40px; }

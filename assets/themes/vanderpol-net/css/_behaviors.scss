@@ -45,3 +45,12 @@
   // Text
   @include font-size(28, 1);
 }
+
+.h-aboutheadline {
+  // Box
+  margin-top: 25px;
+  margin-bottom: 15px;
+  
+  // Text
+  @include font-size(28, 1);
+}

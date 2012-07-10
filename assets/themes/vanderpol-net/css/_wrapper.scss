@@ -180,9 +180,9 @@
     .comment a { border-bottom: 0; }
 
     .unit-foot {
+      margin-top: #{$base-line-height}px;
       border-top: 5px solid rgba(21, 25, 25, 0.8);
       padding: #{($base-line-height / 2) - 5}px 0 #{$base-line-height / 2}px;
-//      padding-top: $line-height / $em;
       position: relative;
       nav ul {
         list-style: none;
