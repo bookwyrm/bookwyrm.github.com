@@ -1,79 +1,53 @@
 
 #Header {
+  // Box
   height: #{($base-line-height * 2)}px;
   margin-top: #{$base-line-height/4}px;
   margin-bottom: #{3*$base-line-height/4}px;
+  
+  // Layout
   position: relative;
   z-index: 2;
   
   ul {
+    // Box
     margin: 0;
     padding: 0;
   }
   .logo {
+    // Box
     margin: 0 40px 0 0 !important;
     padding: 0;
+
+    // Layout
     float: left;
-    text-transform: none;
+    
+    // Text
     @include font-size(48, 2);
+    text-transform: none;
   }
   li {
-    $border-color: #666;
-    $border-radius: 0px;
-    $border-radius-divider: 3.4;
-    font-family: $font-ubuntu;
-    font-weight: 400;
+    // Box
+    padding: 0 0 20px;
+
+    // Layout
     float: right;
     clear: right;
+    
+    // Text
+    font-family: $font-ubuntu;
     @include font-size(20);
+    font-weight: 400;
     line-height: 1em;
-    border-top: 0;
-    padding: #{($base-line-height/2)}px #{$base-line-height/2}px 0;
-    padding: 0 0 20px;
-    margin: 0 $border-radius;
-    @include border-radius(0 0 $border-radius $border-radius);
-    @include background(linear-gradient(#fff, #999));
-    background: none;
     text-transform: uppercase;
 
-    .csstransforms & {
-      @include rotate(-25deg);
-      margin-top: 30px;
-      margin-right: -150px;
-//      text-align: right;
-      width: 220px;
-      padding: 0;
-    }
-    
     * {
-      @include text-shadow(#aaa 1px 1px 2px);
       color: #444;
+      @include text-shadow(#aaa 1px 1px 2px);
     }
     :hover {
       @include text-shadow(#666 1px 1px 2px);
     }
-//    :before, :after {
-//      position: absolute;
-//      top: 0;
-//      width: $border-radius;
-//      height: $border-radius;
-//      content: " ";
-//      border: 1px solid $border-color;
-////      @include border-radius(0 8px 0 0);
-//    }
-//    
-//    :before {
-//      left: -#{$border-radius + 1};
-//      @include border-radius(0 $border-radius 0 0);
-//      border-width: 1px 1px 0 0;
-//      box-shadow: #{$border-radius / $border-radius-divider} -#{$border-radius / $border-radius-divider} 0 #fff;
-//    }
-//    :after {
-//      right: -#{$border-radius + 1};
-//      @include border-radius($border-radius 0 0 0);
-//      border-width: 1px 0 0 1px;
-//      box-shadow: -#{$border-radius / $border-radius-divider} -#{$border-radius / $border-radius-divider} 0 #fff;
-//    }
   }
 }
 
