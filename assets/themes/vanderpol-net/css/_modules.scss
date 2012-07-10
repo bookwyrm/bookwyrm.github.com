@@ -20,14 +20,9 @@
   }
 }
 
-.social {
-  // Box
-  height: 48px;
-}
-
 .pagination-container {
   // Box
-  margin-bottom: 19px;
+  margin-bottom: 0;
 }
 
 .gist .gist-file {
@@ -67,5 +62,16 @@
     border-top: none;
     margin-top: 0;
     padding-top: 0;
+  }
+}
+
+.pagination {
+  
+  .prev, .next {
+    // Layout
+//    display: inline-block;
+    
+    // Text
+    @include font-size(20);
   }
 }

@@ -122,7 +122,7 @@
       }
     }
 //    ul, ol, dl { padding-left: 0; }
-    ul { list-style: square; }
+//    ul { list-style: square; }
     ol { list-style: decimal; }
     li, dt, dd {
       h1, h2, h3, h4, h5, p, ul, ol, dl, blockquote, .hasGrid { margin-left: 0; margin-right: 0; }
@@ -184,11 +184,10 @@
       border-top: 5px solid rgba(21, 25, 25, 0.8);
       padding: #{($base-line-height / 2) - 5}px 0 #{$base-line-height / 2}px;
       position: relative;
-      nav ul {
-        list-style: none;
-        li { display: inline; }
+
+      .gotop {
+        margin: 20px 0;
       }
-      .gotop { margin-bottom: 0; }
     } // .article-inner .unit-foot
 
 } // .the-article

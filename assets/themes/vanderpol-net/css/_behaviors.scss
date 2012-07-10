@@ -48,8 +48,7 @@
 
 .h-aboutheadline {
   // Box
-  margin-top: 25px;
-  margin-bottom: 15px;
+  margin: 0;
   
   // Text
   @include font-size(28, 1);
