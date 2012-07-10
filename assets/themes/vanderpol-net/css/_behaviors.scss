@@ -12,3 +12,15 @@
     </div>
 */
 .cf, .clearfix { @include cf; }
+
+/*
+  ## Main headline
+  
+  This is usually an h1 but since it's a class it doens't have to be.
+  
+    <h1 class="h-headline">Managing CSS - An Introduction</h1>
+*/
+.h-headline {
+  @include font-size(40, 2);
+  margin: #{$base-line-height}px 0 0;
+}

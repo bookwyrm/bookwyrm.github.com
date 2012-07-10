@@ -93,10 +93,6 @@ h1, .h1 {
   margin-bottom: 26px;
 //  text-transform: uppercase;
 }
-h2, .h2 {
-  @include font-size(40, 2);
-  margin: #{$base-line-height}px 0 0;
-}
 h3, .h3 {
   @include font-size(34, 1);
   padding-top: #{$base-line-height/2}px;

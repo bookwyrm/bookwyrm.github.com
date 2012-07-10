@@ -13,6 +13,9 @@
     // Box
     margin: 0;
     padding: 0;
+    
+    // Layout
+    float: right;
   }
   .logo {
     // Box
@@ -20,7 +23,8 @@
     padding: 0;
 
     // Layout
-    float: left;
+    position: absolute;
+    left: 20px;
     
     // Text
     @include font-size(48, 2);
