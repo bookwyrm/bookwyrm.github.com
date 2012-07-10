@@ -1,40 +1,27 @@
 
 #Header {
   margin-bottom: #{$base-line-height}px;
-//  height: #{($base-line-height * 2) - 2}px;
   height: #{($base-line-height * 2)}px;
-//  border-bottom: 3px solid #aaa;
-
-  :after {
-    content: '';
-//    position: relative;
-    border-bottom: 3px solid #999;
-//    left: 2px;
-//    bottom: -2px;
-  }
   
-  ul { margin: 0; padding: 0; }
+  ul {
+//    float: right;
+    margin: 0;
+    padding: 0;
+  }
   .logo {
     margin: 0 40px 0 0 !important;
     padding: 0;
-//    border: none;
-//    background: #fff;
+    float: left;
     text-transform: none;
     @include font-size(48);
-//    text-align: bottom;
-
+    line-height: 80px;
+//    padding-top: 64px;
+    
     .csstransforms & {
       @include rotate(0);
       width: auto;
-      padding-top: 64px;
     }
     
-//    :before, :after {
-//      content: '';
-//      border: 0;
-//      height: 0;
-//      width: 0;
-//    }
   }
   .nav-global {
     
@@ -45,15 +32,14 @@
     $border-radius-divider: 3.4;
     font-family: $font-ubuntu;
     font-weight: 400;
-    float: left;
-//    font-weight: bold;
+    float: right;
+    clear: right;
     @include font-size(20);
-//    border: 1px solid $border-color;
+    line-height: 1em;
     border-top: 0;
-    padding: #{($base-line-height/2)}px #{$base-line-height/2}px #{$base-line-height/2}px;
+    padding: #{($base-line-height/2)}px #{$base-line-height/2}px 0;
+    padding: 10px 20px;
     margin: 0 $border-radius;
-    position: relative;
-    z-index: 0;
     @include border-radius(0 0 $border-radius $border-radius);
     @include background(linear-gradient(#fff, #999));
     background: none;
