@@ -8,9 +8,9 @@
   & {overflow: hidden;text-indent: 100%;white-space: nowrap;}
 }
 
-@mixin font-size($fontsize, $line-height-multiplier:1, $base: $base-font-size) {
+@mixin font-size($fontsize, $line-height-multiplier:1, $modifier:'') {
   font-size: #{$fontsize}px;
-  font-size: #{($fontsize/$base)}rem;
+  font-size: #{($fontsize/$base-font-size)}rem;
   line-height: #{($base-line-height * $line-height-multiplier)}px;
 }
 

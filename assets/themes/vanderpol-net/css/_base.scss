@@ -126,3 +126,15 @@ em { font-weight: bold; }
 li {
   @include font-size(16, 1);
 }
+
+/* 
+  ## Box Sizing
+
+  Use box sizing so padding and border are inside specified width on a block element
+      http://paulirish.com/2012/box-sizing-border-box-ftw/
+*/
+* { 
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing:    border-box; 
+  box-sizing:         border-box; 
+}

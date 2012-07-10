@@ -2,7 +2,7 @@
 #Header {
   margin-bottom: #{$base-line-height}px;
 //  height: #{($base-line-height * 2) - 2}px;
-  padding-bottom: 12px;
+  height: #{($base-line-height * 2)}px;
 //  border-bottom: 3px solid #aaa;
 
   :after {
@@ -65,8 +65,7 @@
       margin-right: -150px;
 //      text-align: right;
       width: 220px;
-      padding-top: 0;
-      padding-bottom: 0;
+      padding: 0;
     }
     
     * {
@@ -174,8 +173,11 @@
       h1, h2, h3, h4, h5, p, ul, ol, dl, blockquote, .hasGrid { margin-left: 0; margin-right: 0; }
     } 
     p code, li code {
-      padding: 2px 5px 2px;
+      padding: 2px 5px;
       font-size: .9em;
+      display: inline-block;
+      height: #{$base-line-height/2}px;
+      line-height: #{$base-line-height/2}px;
       white-space: nowrap;
       background-color: #fff04a;
     }

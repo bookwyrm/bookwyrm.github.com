@@ -17,3 +17,17 @@
 .pagination-container {
   margin-bottom: 19px;
 }
+
+.gist .gist-file {
+  margin-bottom: #{$base-line-height}px !important;
+
+}
+.gist .gist-file .gist-data .gist-highlight pre {
+  padding: 0 .5em 0 !important;
+}
+
+.gist .gist-file .gist-meta {
+  padding: 0 0.5em !important;
+  font-size: 80% !important;
+  line-height: 36px;
+}
