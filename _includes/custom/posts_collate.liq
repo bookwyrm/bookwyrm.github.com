@@ -26,7 +26,7 @@ Usage:
     {% if forloop.first %}
       <h2 class="h-subheadline">{{this_year}}</h2>
       <h3 class="h-archiveheadline">{{this_month}}</h3>
-      <div class="posts archive-posts">
+      <div class="posts posts-indent">
     {% endif %}
   
         <article class="hentry post-line">
@@ -41,12 +41,12 @@ Usage:
         </div>
         <h2 class="h-subheadline">{{next_year}}</h2>
         <h3 class="h-archiveheadline">{{next_month}}</h3>
-        <div class="posts archive-posts">
+        <div class="posts posts-indent">
       {% else %}    
         {% if this_month != next_month %}
           </div>
           <h3 class="h-archiveheadline">{{next_month}}</h3>
-          <div class="posts archive-posts">
+          <div class="posts posts-indent">
         {% endif %}
       {% endif %}
     {% endif %}

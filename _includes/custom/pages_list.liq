@@ -20,18 +20,18 @@ Usage:
   This helper can be seen in use at: ../_layouts/default.html
 -->{% endcomment %}
 
-{% if site.JB.pages_list.provider == "custom" %}
-  {% include custom/pages_list.liq %}
-{% else %}
   {% for node in pages_list %}
     {% if group == null or group == node.group %}
     	{% if page.url == node.url %}
-    	<li class="active"><a href="{{ BASE_PATH }}{{node.url}}" class="active">{{node.title}}</a></li>
+        <article class="hentry post-line">
+          <h3 class="h-postlineheadline entry-title"><a href="{{ BASE_PATH }}{{ node.url }}">{{ node.title }}</a></h3>
+        </article>
     	{% else %}
-    	<li><a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a></li>
+        <article class="hentry post-line">
+          <h3 class="h-postlineheadline entry-title"><a href="{{ BASE_PATH }}{{ node.url }}">{{ node.title }}</a></h3>
+        </article>
     	{% endif %}
     {% endif %}
   {% endfor %}
-{% endif %}
 {% assign pages_list = nil %}
 {% assign group = nil %}
