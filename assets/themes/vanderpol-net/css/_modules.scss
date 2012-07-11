@@ -49,6 +49,15 @@
   
   // Layout
   float: right;
+  
+  .post-line & {
+    // Box
+    padding: 0;
+    width: 160px;
+    
+    // Layout
+    float: left;
+  }
 }
 
 .post-block {

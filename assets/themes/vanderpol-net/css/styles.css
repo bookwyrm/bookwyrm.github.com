@@ -913,19 +913,24 @@ li {
 .post-date {
   padding-top: 20px;
   float: right; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_modules\.scss}line{font-family:\0000353}}
+  .post-line .post-date {
+    padding: 0;
+    width: 160px;
+    float: left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_modules\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_modules\.scss}line{font-family:\0000363}}
 .post-block {
   border-top: 3px solid #aaa;
   margin-top: 22px;
   padding-top: 15px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_modules\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_modules\.scss}line{font-family:\0000369}}
   .post-block:first-child {
     border-top: none;
     margin-top: 0;
     padding-top: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_modules\.scss}line{font-family:\0000370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_modules\.scss}line{font-family:\0000379}}
 .pagination .prev, .pagination .next {
   font-size: 20px;
   font-size: 1.538rem;
@@ -990,6 +995,13 @@ li {
   margin: 0;
   font-size: 28px;
   font-size: 2.154rem;
+  line-height: 40px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_behaviors\.scss}line{font-family:\0000357}}
+.h-postlineheadline {
+  margin: 0;
+  font-size: 20px;
+  font-size: 1.538rem;
   line-height: 40px; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/matt\/code\/bookwyrm\.github\.com\/assets\/themes\/vanderpol-net\/css\/_syntaxhighlighter\.scss}line{font-family:\000031}}

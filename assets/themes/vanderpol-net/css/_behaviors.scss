@@ -53,3 +53,12 @@
   // Text
   @include font-size(28, 1);
 }
+
+.h-postlineheadline {
+  // Box
+  margin: 0;
+  
+  // Text
+  @include font-size(20, 1);
+  
+}

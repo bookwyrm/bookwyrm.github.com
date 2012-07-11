@@ -12,10 +12,13 @@ I blog at [Checking Entropy](checking-entropy/) where I try to rein in a small p
     
 ## Recent Posts  {.h-subheadline}
 
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+<div class="posts">
+  {% for post in site.posts limit:4 %}
+    <article class="hentry post-line">
+      <time class="post-date published" title="{{post.date | date: '%Y-%m-%d'}}">{{ post.date | date: '%b %d, %Y' }}</time>
+      <h3 class="h-postlineheadline entry-title"><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h3>
+    </article>
   {% endfor %}
-</ul>
+</div>
 
 
