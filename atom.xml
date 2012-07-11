@@ -4,7 +4,7 @@
  <title>Checking Entropy</title>
  <link href="http://vanderpol.net/atom.xml" rel="self"/>
  <link href="http://vanderpol.net/checking-entropy/"/>
- <updated>2012-03-08T15:35:32-08:00</updated>
+ <updated>2012-07-11T07:35:07-07:00</updated>
  <id>http://vanderpol.net/checking-entropy/</id>
  <author>
    <name>Matt Vanderpol</name>
@@ -19,9 +19,8 @@
    <id>hhttp://vanderpol.net/checking-entropy/2012/03/08/now-with-more-min</id>
    <content type="html">&lt;p&gt;I just setup support for minifying CSS and HTML in the blog for better performance.&lt;/p&gt;
 
-&lt;p&gt;I created a new Rake task to minify the HTML and CSS based on &lt;a href=&quot;http://engineeredweb.com/blog/jekyll-deploy-scripts/&quot;&gt;Jekyll Deploy Scripts&lt;/a&gt;.&lt;/p&gt;
-
-&lt;div class=&quot;gistWrapper&quot;&gt;&lt;script src='https://gist.github.com/2004110.js?file=gistfile.rb'&gt;&lt;/script&gt;
+&lt;p&gt;I created a new Rake task to minify the HTML and CSS based on &lt;a href='http://engineeredweb.com/blog/jekyll-deploy-scripts/'&gt;Jekyll Deploy Scripts&lt;/a&gt;.&lt;/p&gt;
+&lt;!--more--&gt;&lt;div class='gistWrapper'&gt;&lt;script src='https://gist.github.com/2004110.js?file=gistfile.rb'&gt; &lt;/script&gt;
 &lt;noscript&gt;&lt;pre&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;
 &amp;lt;html&amp;gt;
   &amp;lt;head prefix=&amp;quot;og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# githubog: http://ogp.me/ns/fb/githubog#&amp;quot;&amp;gt;
@@ -586,10 +585,7 @@ I think you should use an
   &amp;lt;/body&amp;gt;
 &amp;lt;/html&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/noscript&gt;&lt;/div&gt;
-
-
-&lt;p&gt;Now I can just run &lt;code&gt;rake minify&lt;/code&gt; to prep my HTML/CSS for production.&lt;/p&gt;
-</content>
+&lt;p&gt;Now I can just run &lt;code&gt;rake minify&lt;/code&gt; to prep my HTML/CSS for production.&lt;/p&gt;</content>
  </entry>
  
  <entry>
@@ -597,14 +593,13 @@ I think you should use an
    <link href="http://vanderpol.net/checking-entropy/2012/03/01/human_digest"/>
    <pubDate>2012-03-01T00:00:00-08:00</pubDate>
    <id>hhttp://vanderpol.net/checking-entropy/2012/03/01/human_digest</id>
-   <content type="html">&lt;p&gt;I saw the &lt;a href=&quot;https://github.com/zacharyvoase/humanhash&quot;&gt;humanhash&lt;/a&gt; project a while back and it looked perfect for something I needed to do in &lt;a href=&quot;http://qatab.com&quot;&gt;qatab&lt;/a&gt;. The only problem was that humanhash was written in Python.&lt;/p&gt;
-
+   <content type="html">&lt;p&gt;I saw the &lt;a href='https://github.com/zacharyvoase/humanhash'&gt;humanhash&lt;/a&gt; project a while back and it looked perfect for something I needed to do in &lt;a href='http://qatab.com'&gt;qatab&lt;/a&gt;. The only problem was that humanhash was written in Python.&lt;/p&gt;
+&lt;!--more--&gt;
 &lt;p&gt;Over the last few days, I took the time to read through the Python code, and run the script locally in small bits to understand what it was doing and how it was doing it (an activity that was hampered by the fact that I don’t know Python).&lt;/p&gt;
 
 &lt;p&gt;Once I understood its behavior in Python, I re-created it in Ruby and turned it into a gem.&lt;/p&gt;
 
-&lt;p&gt;You can now use &lt;a href=&quot;https://github.com/bookwyrm/human_digest&quot;&gt;human_digest&lt;/a&gt; (&lt;a href=&quot;https://rubygems.org/gems/human_digest&quot;&gt;gem&lt;/a&gt;) in your projects too!&lt;/p&gt;
-</content>
+&lt;p&gt;You can now use &lt;a href='https://github.com/bookwyrm/human_digest'&gt;human_digest&lt;/a&gt; (&lt;a href='https://rubygems.org/gems/human_digest'&gt;gem&lt;/a&gt;) in your projects too!&lt;/p&gt;</content>
  </entry>
  
  <entry>
@@ -613,69 +608,68 @@ I think you should use an
    <pubDate>2012-02-23T00:00:00-08:00</pubDate>
    <id>hhttp://vanderpol.net/checking-entropy/2012/02/23/managing-css</id>
    <content type="html">&lt;p&gt;I’ve been working with CSS for almost 10 years. In that time it has always bugged me that CSS frequently devolves into a mess of conflicting styles and long stylesheets. I’ve been thinking about how to make the situation better and doing some research on what other people have done, and this is the first in a series of blog posts where I will explore ways and means of managing CSS files.&lt;/p&gt;
-
-&lt;h2&gt;Goals&lt;/h2&gt;
+&lt;!--more--&gt;
+&lt;h2 class='h-subheadline' id='goals'&gt;Goals&lt;/h2&gt;
 
 &lt;p&gt;Any time you set off on an “expotition” you need to have goals in mind. Goals help you evaluate your pathways and give your destination a shape.&lt;/p&gt;
 
-&lt;h3&gt;Organization and Maintainability&lt;/h3&gt;
+&lt;h3 class='h-sectionheadline' id='organization_and_maintainability'&gt;Organization and Maintainability&lt;/h3&gt;
 
 &lt;p&gt;There should be some order to the styles. Some sense of what goes where. It’s painful to have the same selector appear in 3 different files so that you have to figure out which one is the best place to edit.&lt;/p&gt;
 
 &lt;p&gt;In addition to keeping the styles organized, it’s important that they’re readable. When writing traditional “code”, a coding style guide helps ensure that everyone is writing code in an agreed on format. Bringing this concept to CSS can help keep your styles and attributes organized.&lt;/p&gt;
 
-&lt;h3&gt;Performance&lt;/h3&gt;
+&lt;h3 class='h-sectionheadline' id='performance'&gt;Performance&lt;/h3&gt;
 
 &lt;p&gt;CSS files can easily balloon to 10’s of KB - granted not that big on the grand scale of things but it’s important to do what you can to minimize file sizes (and the number of CSS files) in order to keep web sites performing well.&lt;/p&gt;
 
-&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;h3 class='h-sectionheadline' id='documentation'&gt;Documentation&lt;/h3&gt;
 
 &lt;p&gt;In order for styles to be used effectively, they need to be documented. This let’s new people work with them and provides a framework for review and discussion. We’ll even explore the QA benefits that can be found in documentation.&lt;/p&gt;
 
-&lt;h2&gt;Vocabulary&lt;/h2&gt;
+&lt;h2 class='h-subheadline' id='vocabulary'&gt;Vocabulary&lt;/h2&gt;
 
 &lt;p&gt;It’s difficult to talk about something unless you have a shared vocabulary. We need to agree on certain concepts and what they mean. I’m going to lay out a simple vocabulary here but I suspect that the Vocabulary will become an element of Documentation by the time we’re done.&lt;/p&gt;
 
 &lt;p&gt;You may disagree with some of these terms - that’s ok. The important thing is that you understand what I mean when I use them. Some of the terms are likely to be self-evident and industry-standard - that’s ok too. I’m explicitly documenting them so that there are no questions.&lt;/p&gt;
 
-&lt;h3&gt;Header&lt;/h3&gt;
+&lt;h3 class='h-sectionheadline' id='header'&gt;Header&lt;/h3&gt;
 
 &lt;p&gt;The top of the page. Usually a shared block of HTML that appears on all pages of the site and includes logo, navigation and other common page elements.&lt;/p&gt;
 
 &lt;p&gt;The &lt;strong&gt;Header&lt;/strong&gt; should not be confused with the &lt;code&gt;head&lt;/code&gt; tag.&lt;/p&gt;
 
-&lt;h3&gt;Footer&lt;/h3&gt;
+&lt;h3 class='h-sectionheadline' id='footer'&gt;Footer&lt;/h3&gt;
 
 &lt;p&gt;The bottom of the page. Usually a shared block of HTML that appears on all pages of the site and includes additional links, copyright and other supporting page elements.&lt;/p&gt;
 
 &lt;p&gt;The &lt;strong&gt;Footer&lt;/strong&gt; should not be confused with the &lt;code&gt;footer&lt;/code&gt; tag.&lt;/p&gt;
 
-&lt;h3&gt;Gutters&lt;/h3&gt;
+&lt;h3 class='h-sectionheadline' id='gutters'&gt;Gutters&lt;/h3&gt;
 
 &lt;p&gt;If a page has a fixed width design then, the space between the left and right edges of the content and the left and right edges of the browser window.&lt;/p&gt;
 
 &lt;p&gt;I’m using the term &lt;strong&gt;Gutters&lt;/strong&gt; rather than margin so as to prevent confusion with the &lt;code&gt;margin&lt;/code&gt; style.&lt;/p&gt;
 
-&lt;h3&gt;Wrapper&lt;/h3&gt;
+&lt;h3 class='h-sectionheadline' id='wrapper'&gt;Wrapper&lt;/h3&gt;
 
 &lt;p&gt;The wrapper bundles up several different parts of a site together. It includes the &lt;strong&gt;Header&lt;/strong&gt;, &lt;strong&gt;Footer&lt;/strong&gt; and &lt;strong&gt;Gutters&lt;/strong&gt;. The &lt;strong&gt;Wrapper&lt;/strong&gt; will be largely unchanged from page to page (apart from some possible navigation state indicators).&lt;/p&gt;
 
-&lt;h3&gt;Content&lt;/h3&gt;
+&lt;h3 class='h-sectionheadline' id='content'&gt;Content&lt;/h3&gt;
 
 &lt;p&gt;The content is the meat of the page. It’s “why we’re here”. Content will be different from one page to another and even the design of the content area may be different from one page to another.&lt;/p&gt;
 
-&lt;h3&gt;Sidebar&lt;/h3&gt;
+&lt;h3 class='h-sectionheadline' id='sidebar'&gt;Sidebar&lt;/h3&gt;
 
 &lt;p&gt;It can be on the left or on the right or both. The sidebar usually contains navigation and additional content in support of the &lt;strong&gt;Content&lt;/strong&gt;. Think of it like an &lt;code&gt;aside&lt;/code&gt; for the &lt;strong&gt;Content&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;h3&gt;Mast&lt;/h3&gt;
+&lt;h3 class='h-sectionheadline' id='mast'&gt;Mast&lt;/h3&gt;
 
 &lt;p&gt;This is usually a banner above the content. We’re not lumping it in with the &lt;strong&gt;Content&lt;/strong&gt; because there are frequently similarities in &lt;strong&gt;Mast&lt;/strong&gt; between pages and it often spans both the &lt;strong&gt;Content&lt;/strong&gt; and the &lt;strong&gt;Sidebar&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;h2&gt;What’s Next&lt;/h2&gt;
+&lt;h2 class='h-subheadline' id='whats_next'&gt;What’s Next&lt;/h2&gt;
 
-&lt;p&gt;Now that we have some goals and a vocabulary, we can start a dialog. My next blog post will focus on organization and maintainability - how CSS file(s) can be structured and ways to think about CSS. We’ll look at what some other folks have said and try to work towards a common, stable foundation.&lt;/p&gt;
-</content>
+&lt;p&gt;Now that we have some goals and a vocabulary, we can start a dialog. My next blog post will focus on organization and maintainability - how CSS file(s) can be structured and ways to think about CSS. We’ll look at what some other folks have said and try to work towards a common, stable foundation.&lt;/p&gt;</content>
  </entry>
  
  <entry>
@@ -683,28 +677,24 @@ I think you should use an
    <link href="http://vanderpol.net/checking-entropy/2012/02/08/how-i-use-html5-boilerplate"/>
    <pubDate>2012-02-08T00:00:00-08:00</pubDate>
    <id>hhttp://vanderpol.net/checking-entropy/2012/02/08/how-i-use-html5-boilerplate</id>
-   <content type="html">&lt;p&gt;I’m a big fan of &lt;a href=&quot;http://html5boilerplate.com/&quot;&gt;HTML5 Boilerplate&lt;/a&gt; but there’s a few things I do differently...&lt;/p&gt;
-
-&lt;h3&gt;The Beginning&lt;/h3&gt;
-
-&lt;div class=&quot;gistWrapper&quot;&gt;&lt;script src='https://gist.github.com/1770161.js?file=HTML5B-1.html'&gt;&lt;/script&gt;
+   <content type="html">&lt;p&gt;I’m a big fan of &lt;a href='http://html5boilerplate.com/'&gt;HTML5 Boilerplate&lt;/a&gt; but there’s a few things I do differently&amp;#8230;&lt;/p&gt;
+&lt;!--more--&gt;
+&lt;h3 class='h-sectionheadline' id='the_beginning'&gt;The Beginning&lt;/h3&gt;
+&lt;div class='gistWrapper'&gt;&lt;script src='https://gist.github.com/1770161.js?file=HTML5B-1.html'&gt; &lt;/script&gt;
 &lt;noscript&gt;&lt;pre&gt;&lt;code&gt;&amp;lt;!doctype html&amp;gt;
 &amp;lt;!--[if lt IE 7]&amp;gt; &amp;lt;html class=&amp;quot;ie6 oldie&amp;quot; lang=&amp;quot;en&amp;quot;&amp;gt; &amp;lt;![endif]--&amp;gt;
 &amp;lt;!--[if IE 7]&amp;gt;    &amp;lt;html class=&amp;quot;ie7 oldie&amp;quot; lang=&amp;quot;en&amp;quot;&amp;gt; &amp;lt;![endif]--&amp;gt;
 &amp;lt;!--[if IE 8]&amp;gt;    &amp;lt;html class=&amp;quot;ie8 oldie&amp;quot; lang=&amp;quot;en&amp;quot;&amp;gt; &amp;lt;![endif]--&amp;gt;
 &amp;lt;!--[if gt IE 8]&amp;gt;&amp;lt;!--&amp;gt; &amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt; &amp;lt;!--&amp;lt;![endif]--&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/noscript&gt;&lt;/div&gt;
-
-
-&lt;p&gt;I find that I don’t need a whole lot of CSS that is IE-specific to fix display issues. Therefore, I don't need the variety of classes on the &lt;code&gt;html&lt;/code&gt; tag.&lt;/p&gt;
+&lt;p&gt;I find that I don’t need a whole lot of CSS that is IE-specific to fix display issues. Therefore, I don&amp;#8217;t need the variety of classes on the &lt;code&gt;html&lt;/code&gt; tag.&lt;/p&gt;
 
 &lt;p&gt;I prefer being able to target each version of IE individually because it allows me to apply changes to more recent versions but not older versions.&lt;/p&gt;
 
-&lt;p&gt;For example, I use &lt;a href=&quot;http://css3pie.com/&quot;&gt;CSS3PIE&lt;/a&gt; to get rounded corners and drop shadows in IE8 and under. However, sometimes applying CSS3PIE to an element in IE7 causes issues with the display when it works just fine on IE8. Being able to target the browser versions individually let’s me provide the rounded corner effect to IE8 users while IE7 users get the squared off corners.&lt;/p&gt;
+&lt;p&gt;For example, I use &lt;a href='http://css3pie.com/'&gt;CSS3PIE&lt;/a&gt; to get rounded corners and drop shadows in IE8 and under. However, sometimes applying CSS3PIE to an element in IE7 causes issues with the display when it works just fine on IE8. Being able to target the browser versions individually let’s me provide the rounded corner effect to IE8 users while IE7 users get the squared off corners.&lt;/p&gt;
 
-&lt;h3&gt;The Head&lt;/h3&gt;
-
-&lt;div class=&quot;gistWrapper&quot;&gt;&lt;script src='https://gist.github.com/1770822.js?file=HTML5B-2.html'&gt;&lt;/script&gt;
+&lt;h3 class='h-sectionheadline' id='the_head'&gt;The Head&lt;/h3&gt;
+&lt;div class='gistWrapper'&gt;&lt;script src='https://gist.github.com/1770822.js?file=HTML5B-2.html'&gt; &lt;/script&gt;
 &lt;noscript&gt;&lt;pre&gt;&lt;code&gt;&amp;lt;head&amp;gt;
     &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;
     &amp;lt;title&amp;gt;&amp;lt;/title&amp;gt;
@@ -721,18 +711,14 @@ I think you should use an
     &amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;/css/styles.css&amp;quot;&amp;gt;
 &amp;lt;/head&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/noscript&gt;&lt;/div&gt;
+&lt;p&gt;Since most of the sites I’ve built to date are fairly static sites (as opposed to web apps) I don’t need the power (and overhead) of &lt;a href='http://www.modernizr.com/'&gt;Modernizr&lt;/a&gt;. I do however still need some HTML5 love for older IE browsers so I use the &lt;a href='https://github.com/aFarkas/html5shiv'&gt;html5shiv&lt;/a&gt;. I like to keep it locally (rather than on a Google CDN) because it lets me control the version that’s used. I&amp;#8217;ve had problems before with other JS libs not playing nicely with html5shiv and had to upgrade to a pre-release version of it to get everything working.&lt;/p&gt;
 
+&lt;p&gt;I know that many people (including the HTML5B folks) advocate putting the Google Analytics code in the footer. It does work there, but it means that you can’t use GA anywhere else safely without using the &lt;code&gt;var \_gaq = \_gaq || [];&lt;/code&gt; construct. If I have it in the head then I know that GA is available and I can just use it as expected. I do like the slimmed down version of the code from HTML5B so I’m starting to use it and, since the code is in the head, I don’t have to worry about the succint _gaq setup killing any other _gaq calls which might happen if GA is at the bottom of the page.&lt;/p&gt;
 
-&lt;p&gt;Since most of the sites I’ve built to date are fairly static sites (as opposed to web apps) I don’t need the power (and overhead) of &lt;a href=&quot;http://www.modernizr.com/&quot;&gt;Modernizr&lt;/a&gt;. I do however still need some HTML5 love for older IE browsers so I use the &lt;a href=&quot;https://github.com/aFarkas/html5shiv&quot;&gt;html5shiv&lt;/a&gt;. I like to keep it locally (rather than on a Google CDN) because it lets me control the version that’s used. I've had problems before with other JS libs not playing nicely with html5shiv and had to upgrade to a pre-release version of it to get everything working.&lt;/p&gt;
+&lt;p&gt;Finally, I always put the &lt;code&gt;link&lt;/code&gt; tag for CSS below any &lt;code&gt;script&lt;/code&gt; tags because &lt;q&gt;“a stylesheet followed by an inline script blocks subsequent downloads”&lt;/q&gt; (&lt;cite&gt;[Steve Souders](http://www.stevesouders.com/blog/2010/09/22/newtwitter-performance-analysis/)&lt;/cite&gt;).&lt;/p&gt;
 
-&lt;p&gt;I know that many people (including the HTML5B folks) advocate putting the Google Analytics code in the footer. It does work there, but it means that you can’t use GA anywhere else safely without using the &lt;code&gt;var _gaq = _gaq || [];&lt;/code&gt; construct. If I have it in the head then I know that GA is available and I can just use it as expected. I do like the slimmed down version of the code from HTML5B so I’m starting to use it and, since the code is in the head, I don’t have to worry about the succint _gaq setup killing any other _gaq calls which might happen if GA is at the bottom of the page.&lt;/p&gt;
-
-&lt;p&gt;Finally, I always put the &lt;code&gt;link&lt;/code&gt; tag for CSS below any &lt;code&gt;script&lt;/code&gt; tags because
-&lt;q&gt;“a stylesheet followed by an inline script blocks subsequent downloads”&lt;/q&gt; (&lt;cite&gt;&lt;a href=&quot;http://www.stevesouders.com/blog/2010/09/22/newtwitter-performance-analysis/&quot;&gt;Steve Souders&lt;/a&gt;&lt;/cite&gt;).&lt;/p&gt;
-
-&lt;h3&gt;The Body&lt;/h3&gt;
-
-&lt;div class=&quot;gistWrapper&quot;&gt;&lt;script src='https://gist.github.com/1772821.js?file=HTML5B-3.html'&gt;&lt;/script&gt;
+&lt;h3 class='h-sectionheadline' id='the_body'&gt;The Body&lt;/h3&gt;
+&lt;div class='gistWrapper'&gt;&lt;script src='https://gist.github.com/1772821.js?file=HTML5B-3.html'&gt; &lt;/script&gt;
 &lt;noscript&gt;&lt;pre&gt;&lt;code&gt;&amp;lt;body&amp;gt;
 
     &amp;lt;div id=&amp;quot;container&amp;quot;&amp;gt;
@@ -751,13 +737,10 @@ I think you should use an
     &amp;lt;script src=&amp;quot;/js/script.js&amp;quot; type=&amp;quot;text/javascript&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
 &amp;lt;/body&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/noscript&gt;&lt;/div&gt;
-
-
 &lt;p&gt;Not much to see here. Marking up and styling a page is a totally different topic for a different post.&lt;/p&gt;
 
-&lt;h3&gt;On Scripts&lt;/h3&gt;
-
-&lt;div class=&quot;gistWrapper&quot;&gt;&lt;script src='https://gist.github.com/1772836.js?file=HTML5B-3.html'&gt;&lt;/script&gt;
+&lt;h3 class='h-sectionheadline' id='on_scripts'&gt;On Scripts&lt;/h3&gt;
+&lt;div class='gistWrapper'&gt;&lt;script src='https://gist.github.com/1772836.js?file=HTML5B-3.html'&gt; &lt;/script&gt;
 &lt;noscript&gt;&lt;pre&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;
 &amp;lt;html&amp;gt;
   &amp;lt;head&amp;gt;
@@ -1325,23 +1308,17 @@ I think you should use an
   &amp;lt;/body&amp;gt;
 &amp;lt;/html&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/noscript&gt;&lt;/div&gt;
-
-
-&lt;p&gt;The way that the scripts are added in the final page is fairly standard so I'd like to talk about how I organize them behind the scenes. I never liked the libs/ vs mylibs/ organization structure; I was never sure what should go where.&lt;/p&gt;
+&lt;p&gt;The way that the scripts are added in the final page is fairly standard so I&amp;#8217;d like to talk about how I organize them behind the scenes. I never liked the libs/ vs mylibs/ organization structure; I was never sure what should go where.&lt;/p&gt;
 
 &lt;p&gt;I resolved the issue by just using libs/ and plugins/&lt;/p&gt;
-
 &lt;pre&gt;&lt;code&gt;libs/
 plugins/&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I keep jQuery and html5shiv (and &lt;a href='http://www.dillerdesign.com/experiment/DD_belatedPNG/'&gt;DD_belatedPNG&lt;/a&gt; but I’m starting to drop support for IE6 so that will go away) in libs/ while all of my jQuery plugins go in the plugins/ directory. I always keep both a development and a minified version of each lib and plugin around. This makes it easy to debug when I need to.&lt;/p&gt;
 
-
-&lt;p&gt;I keep jQuery and html5shiv (and &lt;a href=&quot;http://www.dillerdesign.com/experiment/DD_belatedPNG/&quot;&gt;DD_belatedPNG&lt;/a&gt; but I’m starting to drop support for IE6 so that will go away) in libs/ while all of my jQuery plugins go in the plugins/ directory. I always keep both a development and a minified version of each lib and plugin around. This makes it easy to debug when I need to.&lt;/p&gt;
-
-&lt;h3&gt;In Total&lt;/h3&gt;
+&lt;h3 id='in_total'&gt;In Total&lt;/h3&gt;
 
 &lt;p&gt;Here’s what you get when you add it all together.&lt;/p&gt;
-
-&lt;div class=&quot;gistWrapper&quot;&gt;&lt;script src='https://gist.github.com/1659433.js?file=HTML5%20base%20template'&gt;&lt;/script&gt;
+&lt;div class='gistWrapper'&gt;&lt;script src='https://gist.github.com/1659433.js?file=HTML5%20base%20template'&gt; &lt;/script&gt;
 &lt;noscript&gt;&lt;pre&gt;&lt;code&gt;&amp;lt;!doctype html&amp;gt;
 &amp;lt;!--[if lt IE 7]&amp;gt; &amp;lt;html class=&amp;quot;ie6 oldie&amp;quot; lang=&amp;quot;en&amp;quot;&amp;gt; &amp;lt;![endif]--&amp;gt;
 &amp;lt;!--[if IE 7]&amp;gt;    &amp;lt;html class=&amp;quot;ie7 oldie&amp;quot; lang=&amp;quot;en&amp;quot;&amp;gt; &amp;lt;![endif]--&amp;gt;
@@ -1385,11 +1362,7 @@ plugins/&lt;/code&gt;&lt;/pre&gt;
     &amp;lt;script src=&amp;quot;/javascript/plugins.js&amp;quot; type=&amp;quot;text/javascript&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
     &amp;lt;script src=&amp;quot;/javascript/library.js&amp;quot; type=&amp;quot;text/javascript&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
 &amp;lt;/body&amp;gt;
-&amp;lt;/html&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/noscript&gt;&lt;/div&gt;
-
-
-
-</content>
+&amp;lt;/html&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/noscript&gt;&lt;/div&gt;</content>
  </entry>
  
  
