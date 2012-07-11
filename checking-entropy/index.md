@@ -6,7 +6,7 @@ blog: true
 {% include JB/setup %}
 
 <div class="posts">
-  {% for post in site.posts %}
+  {% for post in site.posts limit:4 %}
     <article class="hentry post-block">
       <time class="post-date published" title="{{post.date | date: '%Y-%m-%d'}}">{{ post.date | date: '%B %d, %Y' }}</time>
       <h2 class="h-subheadline entry-title"><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h2>
