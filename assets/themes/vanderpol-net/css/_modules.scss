@@ -60,6 +60,11 @@
   }
 }
 
+.archive-posts {
+  // Box
+  margin: 0 0 #{$base-line-height}px #{$base-line-height}px;  
+}
+
 .post-block {
   // Box
   border-top: 3px solid #aaa;

@@ -60,5 +60,12 @@
   
   // Text
   @include font-size(20, 1);
+}
+
+.h-archiveheadline {
+  // Box
+  margin: 0 0 0 20px;
   
+  // Text
+  @include font-size(28, 1);
 }
