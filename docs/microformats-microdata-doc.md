@@ -40,7 +40,7 @@ There is a great [video introduction to rich snippets](http://www.youtube.com/wa
 
 ### WordPress Integration
 
-The concept of Microformats doesn't seem to have caught on very strongly with the WordPress community. There are a few plugins for providing the ability to mark up content with Microformats but they aren't very extensive and are more for specific content types, rather than sprinkling the Microformats into regular pages.
+The concept of Microformats doesn’t seem to have caught on very strongly with the WordPress community. There are a few plugins for providing the ability to mark up content with Microformats but they aren’t very extensive and are more for specific content types, rather than sprinkling the Microformats into regular pages.
 
 Microdata on the other hand seems to have a much stronger presence and some good plugins to look at include [Microdata for SEO](http://wordpress.org/extend/plugins/microdata-for-seo-by-optimum7com/) and the [Opengraph and Microdata Generator](http://wordpress.org/extend/plugins/opengraph-and-microdata-generator/).
 
