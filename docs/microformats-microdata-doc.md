@@ -2,7 +2,7 @@
 
 ## Making the Web a Better Place with Rich Snippets
 
-Microformats are a type of “Rich Snippet”. Other formats include Microdata and RDFa. In essence, this involves adding some additional HTML around existing content so that the content can be identified by automated web services. These services include search engines and news aggregators.
+Microformats are a way of marking up content with “meta” information. Other means include Microdata and RDFa. In essence, this involves adding some additional HTML around existing content so that the content can be identified by automated web services. These services include search engines and news aggregators.
 
 Of the three existing formats, I recommend looking at either Microdata or Microformats.
 
@@ -62,5 +62,5 @@ Microdata on the other hand seems to have a much stronger presence and some good
 
 This brief knowledge document was drafted on July 24, 2012 by [Matt Vanderpol](http://vanderpol.net). He can be reached at [matt@vanderpol.net](mailto:matt@vanderpol.net) and he occasionally tweets as [bookwyrm](http://twitter.com/bookwyrm).
 
-This document was written in Markdown then saved into a PDF using [Marked](http://itunes.apple.com/us/app/marked/id448925439?mt=12). You can download both the [PDF version](http://git.io/ymCEeQ) and the [Markdown source]() of this document on Github.
+This document was written in Markdown then saved into a PDF using [Marked](http://itunes.apple.com/us/app/marked/id448925439?mt=12). You can download both the [PDF version](http://git.io/ymCEeQ) and the [Markdown source](http://git.io/8LiXsg) of this document on Github.
 
