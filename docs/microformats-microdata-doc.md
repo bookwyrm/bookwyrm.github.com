@@ -1,4 +1,4 @@
-# Microformats
+# Microformats and Microdata and SEO
 
 ## Making the Web a Better Place with Rich Snippets
 
