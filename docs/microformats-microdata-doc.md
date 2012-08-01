@@ -8,9 +8,9 @@ Of the three existing formats, I recommend looking at either Microdata or Microf
 
 ### Microformats
 
-[Microformats][mf.org] have been around for quite a while now and is mostly based on tagging items with specific classes. There are many “patterns” for Microformats. Each pattern is intended for a specific type of content and has its own set of classes for marking things up.
+[Microformats][mf.org] is a grass-roots effort and has been around for quite a while now. It is based on tagging items with specific classes. There are many “patterns” for Microformats. Each pattern is intended for a specific type of content and has its own set of classes for marking things up.
 
-Some examples of Microformat patterns include:
+Some examples of Microformats patterns include:
 
 * [hCard](http://microformats.org/wiki/hcard) - for people and organizations
 * [hCalendar](http://microformats.org/wiki/hcalendar) - for events
@@ -44,6 +44,10 @@ The concept of Microformats doesn’t seem to have caught on very strongly with 
 
 Microdata on the other hand seems to have a much stronger presence and some good plugins to look at include [Microdata for SEO](http://wordpress.org/extend/plugins/microdata-for-seo-by-optimum7com/) and the [Opengraph and Microdata Generator](http://wordpress.org/extend/plugins/opengraph-and-microdata-generator/).
 
+### Webmaster Tools Integration
+
+Google has recently released a Structured Data Dashboard update to Webmaster Tools. This dashboard shows you what sort of structured data Google has found on your site. You can read more at [Introducing the Structured Data Dashboard](http://googlewebmastercentral.blogspot.com/2012/07/introducing-structured-data-dashboard.html).
+
 ### Additional Resources and Links
 
 * [WordPress Plugins tagged with “microdata”](http://wordpress.org/extend/plugins/tags/microdata)
@@ -60,7 +64,9 @@ Microdata on the other hand seems to have a much stronger presence and some good
 
 ### About the Author and Document
 
-This brief knowledge document was drafted on July 24, 2012 by [Matt Vanderpol](http://vanderpol.net). He can be reached at [matt@vanderpol.net](mailto:matt@vanderpol.net) and he occasionally tweets as [bookwyrm](http://twitter.com/bookwyrm).
+This brief knowledge document was originally drafted on July 24, 2012 by [Matt Vanderpol](http://vanderpol.net). He can be reached at [matt@vanderpol.net](mailto:matt@vanderpol.net) and he occasionally tweets as [bookwyrm](http://twitter.com/bookwyrm).
 
 This document was written in Markdown then saved into a PDF using [Marked](http://itunes.apple.com/us/app/marked/id448925439?mt=12). You can download both the [PDF version](http://git.io/ymCEeQ) and the [Markdown source](http://git.io/8LiXsg) of this document on Github.
+
+Thanks to the wonders of version control, you can see a changelog for the document alongside the markdown source.
 
