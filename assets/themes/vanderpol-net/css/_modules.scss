@@ -10,7 +10,7 @@
 
     // Layout
     float: left;
-    
+
     // Other
     list-style: none;
   }
@@ -37,7 +37,7 @@
 .gist .gist-file .gist-meta {
   // Box
   padding: 0 0.5em !important;
-  
+
   // Text
   font-size: 80% !important;
   line-height: 36px;
@@ -46,15 +46,15 @@
 .post-date {
   // Box
   padding-top: 20px;
-  
+
   // Layout
   float: right;
-  
+
   .post-line & {
     // Box
     padding: 0;
     width: 160px;
-    
+
     // Layout
     float: left;
   }
@@ -62,7 +62,7 @@
 
 .posts-indent {
   // Box
-  margin: 0 0 #{$base-line-height}px #{$base-line-height}px;  
+  margin: 0 0 #{$base-line-height}px #{$base-line-height}px;
 }
 
 .post-block {
@@ -70,7 +70,7 @@
   border-top: 3px solid #aaa;
   margin-top: 22px;
   padding-top: 15px;
-  
+
   &:first-child {
     // Box
     border-top: none;
@@ -80,12 +80,29 @@
 }
 
 .pagination {
-  
+
   .prev, .next {
     // Layout
 //    display: inline-block;
-    
+
     // Text
     @include font-size(20);
+  }
+}
+
+.myCard {
+  float: left;
+  line-height: 30px;
+
+  a, span {
+    display: block;
+  }
+}
+.vcard {
+  padding-bottom: 30px;
+
+  ul {
+    float: left;
+    margin: 0 0 0 40px;
   }
 }
