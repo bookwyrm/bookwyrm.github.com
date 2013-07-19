@@ -9,7 +9,7 @@ This is the source of the vanderpol.net website
 - [make edits]
 - QA
 - git status / add / commit
-- jekyll --no-auto
+- jekyll build
 - git push origin source
 
 ## Deploy
