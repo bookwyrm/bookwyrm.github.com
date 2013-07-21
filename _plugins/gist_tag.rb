@@ -1,7 +1,5 @@
 # A Liquid tag for Jekyll sites that allows embedding Gists and showing code for non-JavaScript enabled browsers and readers.
-# by: Brandon Tilly
-# Source URL: https://gist.github.com/1027674
-# Post http://brandontilley.com/2011/01/31/gist-tag-for-jekyll.html
+# Source URL: https://gist.github.com/imathis/1027674
 #
 # Example usage: {% gist 1027674 gist_tag.rb %} //embeds a gist for this plugin
 
@@ -9,21 +7,22 @@ require 'cgi'
 require 'digest/md5'
 require 'net/https'
 require 'uri'
+require 'json'
 
 module Jekyll
   class GistTag < Liquid::Tag
     def initialize(tag_name, text, token)
       super
       @text           = text
-      @cache_disabled = false
+      @cache_disabled = true
       @cache_folder   = File.expand_path "../.gist-cache", File.dirname(__FILE__)
       FileUtils.mkdir_p @cache_folder
     end
 
     def render(context)
-      if parts = @text.match(/([\d]*) (.*)/)
-        gist, file = parts[1].strip, parts[2].strip
-        script_url = script_url_for gist, file
+      if parts = @text.match(/([\d]*) (.*?) (.*)/)
+        gist, file, user = parts[1].strip, parts[2].strip, parts[3].strip
+        script_url = script_url_for gist, user
         code       = get_cached_gist(gist, file) || get_gist_from_web(gist, file)
         html_output_for script_url, code
       else
@@ -39,12 +38,27 @@ module Jekyll
       HTML
     end
 
-    def script_url_for(gist_id, filename)
-      "https://gist.github.com/#{gist_id}.js?file=#{filename}"
+    def script_url_for(gist_id, user)
+      "https://gist.github.com/#{user}/#{gist_id}.js"
+    end
+
+    def get_data_for_url(url)
+      raw_uri           = URI.parse url
+      https             = Net::HTTP.new raw_uri.host, raw_uri.port
+      https.use_ssl     = true
+      https.verify_mode = OpenSSL::SSL::VERIFY_NONE
+      request           = Net::HTTP::Get.new raw_uri.request_uri
+      data              = https.request request
+      data.body
     end
 
     def get_gist_url_for(gist, file)
-      "https://raw.github.com/gist/#{gist}/#{file}"
+      api_url = "https://api.github.com/gists/#{gist}"
+      gist_info = JSON.parse get_data_for_url(api_url)
+      pp gist_info
+      files = gist_info.fetch('files', {})
+      file_data = files.fetch(file, {})
+      file_data.fetch('raw_url', '')
     end
 
     def cache(gist, file, data)
@@ -69,20 +83,11 @@ module Jekyll
     end
 
     def get_gist_from_web(gist, file)
-      gist_url          = get_gist_url_for gist, file
-      raw_uri           = URI.parse gist_url
-      proxy             = ENV['http_proxy']
-      if proxy
-        proxy_uri       = URI.parse(proxy)
-        https           = Net::HTTP::Proxy(proxy_uri.host, proxy_uri.port).new raw_uri.host, raw_uri.port
-      else
-        https           = Net::HTTP.new raw_uri.host, raw_uri.port
-      end
-      https.use_ssl     = true
-      https.verify_mode = OpenSSL::SSL::VERIFY_NONE
-      request           = Net::HTTP::Get.new raw_uri.request_uri
-      data              = https.request request
-      data              = data.body
+      api_url = "https://api.github.com/gists/#{gist}"
+      gist_info = JSON.parse get_data_for_url(api_url)
+      files = gist_info.fetch('files', {})
+      file_data = files.fetch(file, {})
+      data = file_data.fetch('content', '')
       cache gist, file, data unless @cache_disabled
       data
     end
