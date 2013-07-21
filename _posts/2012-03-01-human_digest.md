@@ -7,7 +7,7 @@ blog: true
 ---
 {% include JB/setup %}
 
-I saw the [humanhash][] project a while back and it looked perfect for something I needed to do in [qatab][]. The only problem was that humanhash was written in Python.
+I saw the [humanhash][] project a while back and it looked perfect for something I needed to do in [QAtab][]. The only problem was that humanhash was written in Python.
 
 <!--more-->
 
@@ -19,6 +19,6 @@ You can now use [human_digest][] ([gem][human_digest_gem]) in your projects too!
 
 
 [humanhash]: https://github.com/zacharyvoase/humanhash
-[qatab]: http://qatab.com
+[QAtab]: http://qatab.com
 [human_digest]: https://github.com/bookwyrm/human_digest
 [human_digest_gem]: https://rubygems.org/gems/human_digest
