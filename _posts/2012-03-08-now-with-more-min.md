@@ -13,6 +13,7 @@ I created a new Rake task to minify the HTML and CSS based on [Jekyll Deploy Scr
 
 <!--more-->
 
-{% gist 2004110 gistfile.rb %}
+{% gist 2004110 gistfile1.rb bookwyrm %}
 
 Now I can just run <code>rake minify</code> to prep my HTML/CSS for production.
+
