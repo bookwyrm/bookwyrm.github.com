@@ -14,7 +14,7 @@ module Jekyll
     def initialize(tag_name, text, token)
       super
       @text           = text
-      @cache_disabled = true
+      @cache_disabled = false
       @cache_folder   = File.expand_path "../.gist-cache", File.dirname(__FILE__)
       FileUtils.mkdir_p @cache_folder
     end
