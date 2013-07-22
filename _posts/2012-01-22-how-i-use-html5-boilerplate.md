@@ -14,7 +14,7 @@ I’m a big fan of [HTML5 Boilerplate](http://html5boilerplate.com/) but there�
 
 ### The Beginning  {.h-sectionheadline}
 
-{% gist 1770161 HTML5B-1.html %}
+{% gist 1770161 HTML5B-1.html bookwyrm %}
 
 I find that I don’t need a whole lot of CSS that is IE-specific to fix display issues. Therefore, I don't need the variety of classes on the <code>html</code> tag.
 
@@ -24,7 +24,7 @@ For example, I use [CSS3PIE](http://css3pie.com/) to get rounded corners and dro
 
 ### The Head  {.h-sectionheadline}
 
-{% gist 1770822 HTML5B-2.html %}
+{% gist 1770822 HTML5B-2.html bookwyrm %}
 
 Since most of the sites I’ve built to date are fairly static sites (as opposed to web apps) I don’t need the power (and overhead) of [Modernizr](http://www.modernizr.com/). I do however still need some HTML5 love for older IE browsers so I use the [html5shiv](https://github.com/aFarkas/html5shiv). I like to keep it locally (rather than on a Google CDN) because it lets me control the version that’s used. I've had problems before with other JS libs not playing nicely with html5shiv and had to upgrade to a pre-release version of it to get everything working.
 
@@ -35,13 +35,13 @@ Finally, I always put the <code>link</code> tag for CSS below any <code>script</
 
 ### The Body  {.h-sectionheadline}
 
-{% gist 1772821 HTML5B-3.html %}
+{% gist 1772821 HTML5B-3.html bookwyrm %}
 
 Not much to see here. Marking up and styling a page is a totally different topic for a different post.
 
 ### On Scripts  {.h-sectionheadline}
 
-{% gist 1772836 HTML5B-3.html %}
+{% gist 1772836 HTML5B-4.html bookwyrm %}
 
 The way that the scripts are added in the final page is fairly standard so I'd like to talk about how I organize them behind the scenes. I never liked the libs/ vs mylibs/ organization structure; I was never sure what should go where.
 
@@ -56,4 +56,4 @@ I keep jQuery and html5shiv (and [DD_belatedPNG](http://www.dillerdesign.com/exp
 
 Here’s what you get when you add it all together.
 
-{% gist 1659433 HTML5%20base%20template %}
+{% gist 1659433 HTML5-base-template.html bookwyrm %}
