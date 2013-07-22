@@ -81,10 +81,12 @@
 
 .pagination {
 
-  .prev, .next {
+  .prev, .next, .pipe {
     // Layout
-//    display: inline-block;
+    display: inline-block;
+  }
 
+  .prev, .next {
     // Text
     @include font-size(20);
   }
