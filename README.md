@@ -5,7 +5,7 @@ This is the source of the vanderpol.net website
 ## Create
 
 - git co source
-- jekyll server --watch
+- jekyll serve --watch --draft
 - [make edits]
 - QA
 - git status / add / commit
