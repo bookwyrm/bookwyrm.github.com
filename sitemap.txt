@@ -12,6 +12,7 @@ http://vanderpol.net/pages.html
 http://vanderpol.net/sitemap.txt
 
 
+http://vanderpol.net/checking-entropy/2013/08/20/attention-is-a-precious-resource
 http://vanderpol.net/checking-entropy/2012/03/08/now-with-more-min
 http://vanderpol.net/checking-entropy/2012/03/01/human_digest
 http://vanderpol.net/checking-entropy/2012/02/23/managing-css
